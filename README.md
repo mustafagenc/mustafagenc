@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mustafagenc/)](https://www.linkedin.com/in/mustafagenc/) [![Medium Badge](https://img.shields.io/badge/-Medium-black?style=flat&logo=Medium&logoColor=white&link=https://medium.com/@mustafagenc)](https://medium.com/@mustafagenc) [![GitHub Follow Badge](https://img.shields.io/github/followers/mustafagenc?label=follow&style=social)](https://github.com/mustafagenc)
+
+[![Kullanılan Diller](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafagenc&layout=compact&langs_count=10&hide=html,smarty,javascript)](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafagenc&layout=compact&langs_count=10&hide=html,smarty,javascript)
