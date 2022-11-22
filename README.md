@@ -1,4 +1,5 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Mustafa Genç ====================================================================================================================================  Software Developer ------------------  * 🌍  I'm based in İstanbul * ✉️  You can contact me at [eposta@mustafagenc.info](mailto:eposta@mustafagenc.info)
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Mustafa Genç
+====================================================================================================================================  Software Developer ------------------  * 🌍  I'm based in İstanbul * ✉️  You can contact me at [eposta@mustafagenc.info](mailto:eposta@mustafagenc.info)
 
 <a href="https://www.twitter.com/mustafagenc" target="_blank" rel="noreferrer"><img src="https://img.shields.io/twitter/follow/mustafagenc?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
 ### Skills  
