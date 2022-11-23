@@ -1,0 +1,26 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"cSpell.words": [
+		"airtable",
+		"browserconfig",
+		"contentlayer",
+		"Genç",
+		"Hakkımda",
+		"İmleri",
+		"İstanbul'da",
+		"ISVG",
+		"msapplication",
+		"Mustafa",
+		"mustafagenc",
+		"tailwindcss",
+		"Tiempos",
+		"upstash",
+		"Uzmanı",
+		"Yazılar",
+		"Yazılım"
+	]
+}
