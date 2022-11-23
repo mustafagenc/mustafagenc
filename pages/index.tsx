@@ -15,7 +15,7 @@ export default function HomePage() {
 						<Title>
 							<b className="font-semibold">Merhaba, Ben Mustafa 🖖</b>
 							<br />
-							İstanbul'da yaşayan İzmirli bir Geliştiriciyim.
+							İstanbul&apos;da yaşayan İzmirli bir Geliştiriciyim.
 						</Title>
 						<p className="text-lg">
 							Şu anda{' '}
