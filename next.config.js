@@ -8,7 +8,14 @@ module.exports = withContentlayer({
 	reactStrictMode: true,
 	swcMinify: true,
 	images: {
-		domains: ['images.unsplash.com', 'dl.airtable.com', 's.gravatar.com']
+		domains: [
+			'images.unsplash.com',
+			'dl.airtable.com',
+			's.gravatar.com',
+			'api.spotify.com',
+			'accounts.spotify.com',
+			'i.scdn.co'
+		]
 	},
 	experimental: {
 		appDir: false,
