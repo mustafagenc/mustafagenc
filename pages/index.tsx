@@ -4,6 +4,7 @@ import { StyleLink } from '@/components/link';
 import Title from '@/components/title';
 import Container from '@/components/container';
 import Social from '@/components/social';
+import { Spotify } from '@/components/spotify';
 
 export default function HomePage() {
 	return (
@@ -14,7 +15,7 @@ export default function HomePage() {
 						<Title>
 							<b className="font-semibold">Merhaba, Ben Mustafa 🖖</b>
 							<br />
-							İstanbul'da yaşayan İzmirli bir Geliştiriciyim.
+							İstanbul&apos;da yaşayan İzmirli bir Geliştiriciyim.
 						</Title>
 						<p className="text-lg">
 							Şu anda{' '}
@@ -24,7 +25,6 @@ export default function HomePage() {
 							şirketinde Kıdemli Yazılım Geliştirici olarak çalışıyorum.
 						</p>
 					</div>
-
 					<div className="relative mb-8 mr-auto sm:mb-0">
 						<NextImage
 							src="https://s.gravatar.com/avatar/62d50abe343fd04b03f9987f2eb9db64?s=400"
@@ -39,6 +39,10 @@ export default function HomePage() {
 
 				<div className="mt-10">
 					<Social />
+				</div>
+
+				<div className="mt-10">
+					<Spotify />
 				</div>
 			</Container>
 		</PageTransition>
