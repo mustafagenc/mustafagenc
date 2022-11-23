@@ -17,9 +17,21 @@
   },
   "dependencies": {
     "@next/font": "^13.0.4",
+    "@upstash/claps": "^1.0.0-beta.4",
+    "@upstash/redis": "^1.17.0",
+    "@vercel/analytics": "^0.1.5",
+    "classnames": "^2.3.2",
+    "contentlayer": "^0.2.9",
+    "framer-motion": "^7.6.9",
     "next": "13.0.4",
+    "next-auth": "^4.17.0",
+    "next-contentlayer": "^0.2.9",
+    "prism-themes": "^1.9.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "reading-time": "^1.5.0",
+    "rehype-prism-plus": "^1.5.0",
+    "use-http": "^1.0.27"
   },
   "devDependencies": {
     "@tailwindcss/line-clamp": "^0.4.2",
