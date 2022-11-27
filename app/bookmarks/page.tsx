@@ -3,17 +3,19 @@ import bookmarkGroupByWeekNumber from '@/helpers/bookmarkGroupByWeekNumber';
 import Raindrop from '@/helpers/raindrop';
 import { ILink } from '@/types/index';
 import { format, startOfWeek } from 'date-fns';
+import { tr } from 'date-fns/locale';
 
 export const revalidate = 7200; // 60*60*2
 
 async function fetchData() {
-	const dateStartOfWeek = startOfWeek(new Date(), { weekStartsOn: 1 });
-	const date = format(dateStartOfWeek, 'yyyy-MM-dd');
+	const dateStartOfWeek = startOfWeek(new Date(), { weekStartsOn: 1, locale: tr });
+	const date = format(dateStartOfWeek, 'yyyy-MM-dd', { locale: tr });
 
 	const raindrop = new Raindrop();
 	const collections: ILink[] = await raindrop.multipleRaindrops({
 		id: 29387288,
-		search: `created:>${date}`
+		search: `created:>${date}`,
+		allData: true
 	});
 
 	const data = bookmarkGroupByWeekNumber(collections);
