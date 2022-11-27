@@ -4,7 +4,8 @@ export default function Head() {
 	const meta = {
 		title: `${META.name}`,
 		description: `${META.description}`,
-		url: `${META.url}`
+		url: `${META.url}`,
+		username: `${META.username}`
 	};
 
 	return (
