@@ -1,4 +1,3 @@
-import React from 'react';
 import type { ISVGProps } from '@/types/index';
 
 function IconTwitter({ size = 22, ...props }: ISVGProps) {

@@ -6,7 +6,6 @@ const { withContentlayer } = require('next-contentlayer');
 
 module.exports = withContentlayer({
 	reactStrictMode: true,
-	swcMinify: true,
 	images: {
 		domains: [
 			'images.unsplash.com',
@@ -14,11 +13,12 @@ module.exports = withContentlayer({
 			's.gravatar.com',
 			'api.spotify.com',
 			'accounts.spotify.com',
-			'i.scdn.co'
+			'i.scdn.co',
+			'api.raindrop.io'
 		]
 	},
+	staticPageGenerationTimeout: 10,
 	experimental: {
-		appDir: false,
-		fontLoaders: [{ loader: '@next/font/google', options: { subsets: ['latin'] } }]
+		appDir: true
 	}
 });

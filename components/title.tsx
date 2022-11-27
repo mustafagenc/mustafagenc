@@ -1,17 +1,12 @@
-import React from 'react';
 import cx from 'classnames';
+import React from 'react';
 
 export interface ITitleProps extends React.HTMLAttributes<HTMLDivElement> {
 	as?: string;
 	children: React.ReactNode;
 }
 
-const Title: React.FC<ITitleProps> = ({
-	as = 'h2',
-	children,
-	className,
-	...props
-}: ITitleProps) => {
+const Title: React.FC<ITitleProps> = ({ as = 'h2', children, className, ...props }: ITitleProps) => {
 	return React.createElement(
 		as,
 		{ className: cx('shine text-2xl leading-snug', className), ...props },

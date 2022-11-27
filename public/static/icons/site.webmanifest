@@ -1,23 +1,23 @@
 {
-    "name": "Mustafa Genc",
-    "short_name": "MG",
-    "icons": [
-        {
-            "src": "/static/icons/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/static/icons/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#39A5E8",
-    "background_color": "#39A5E8",
-    "display": "standalone",
-    "dir": "ltr",
-    "lang": "tr-TR",
-    "orientation": "portrait-primary",
-    "start_url": "../../index.html"
+	"name": "Mustafa Genc",
+	"short_name": "MG",
+	"icons": [
+		{
+			"src": "/static/icons/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/static/icons/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#39A5E8",
+	"background_color": "#39A5E8",
+	"display": "standalone",
+	"dir": "ltr",
+	"lang": "tr-TR",
+	"orientation": "portrait-primary",
+	"start_url": "../../index.html"
 }

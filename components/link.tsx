@@ -8,20 +8,13 @@ export type BaseLinkProps = {
 	className?: string;
 };
 
-export default function BaseLink({
-	children,
-	href,
-	blank = true,
-	className,
-	...props
-}: BaseLinkProps) {
+export default function BaseLink({ children, href, blank = true, className, ...props }: BaseLinkProps) {
 	const isBlank = blank
 		? {
 				rel: 'noopener noreferrer',
 				target: '_blank'
 		  }
 		: {};
-
 	return (
 		<a href={href} className={cn(className)} {...isBlank} {...props}>
 			{children}

@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2022-11-27T00:00:00.000Z",
+    "title": "Deneme 1 2 3",
+    "subtitle": "Test deneme 1 2 3",
+    "body": {
+      "raw": "\nLorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum has been the industry's standard dummy text ever since the 1500s,\nwhen an unknown printer took a galley of type and scrambled it to make a type\nspecimen book. It has survived not only five centuries,\nbut also the leap into electronic typesetting, remaining essentially unchanged.\nIt was popularised in the 1960s with the release of Letraset sheets containing\nLorem Ipsum passages, and more recently with desktop publishing software like Aldus\nPageMaker including versions of Lorem Ipsum.\n",
+      "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,r)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of l(t))!y.call(e,s)&&s!==n&&i(e,s,{get:()=>t[s],enumerable:!(r=d(t,s))||r.enumerable});return e};var x=(e,t,n)=>(n=e!=null?c(h(e)):{},a(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>a(i({},\"__esModule\",{value:!0}),e);var u=g((v,m)=>{m.exports=_jsx_runtime});var L={};f(L,{default:()=>I,frontmatter:()=>k});var o=x(u()),k={date:\"2022-11-27\",title:\"Deneme 1 2 3\",subtitle:\"Test deneme 1 2 3\"};function p(e){let t=Object.assign({p:\"p\"},e.components);return(0,o.jsx)(t.p,{children:`Lorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum has been the industry's standard dummy text ever since the 1500s,\nwhen an unknown printer took a galley of type and scrambled it to make a type\nspecimen book. It has survived not only five centuries,\nbut also the leap into electronic typesetting, remaining essentially unchanged.\nIt was popularised in the 1960s with the release of Letraset sheets containing\nLorem Ipsum passages, and more recently with desktop publishing software like Aldus\nPageMaker including versions of Lorem Ipsum.`})}function w(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,Object.assign({},e,{children:(0,o.jsx)(p,e)})):p(e)}var I=w;return b(L);})();\n;return Component;"
+    },
+    "_id": "posts/test.mdx",
+    "_raw": {
+      "sourceFilePath": "posts/test.mdx",
+      "sourceFileName": "test.mdx",
+      "sourceFileDir": "posts",
+      "contentType": "mdx",
+      "flattenedPath": "posts/test"
+    },
+    "type": "Post",
+    "slug": "test",
+    "url": "https://mustafagenc.com/blog/undefined",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.455,
+      "time": 27300,
+      "words": 91
+    }
+  }
+]

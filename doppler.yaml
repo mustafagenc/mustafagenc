@@ -1,3 +1,1 @@
-setup:
-    project: mustafagenc
-    config: dev
+doppler.yaml

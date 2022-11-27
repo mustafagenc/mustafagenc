@@ -1,4 +1,3 @@
-import React from 'react';
 import type { ISVGProps } from '@/types/index';
 
 function IconSpotify({ size = 24, ...props }: ISVGProps) {

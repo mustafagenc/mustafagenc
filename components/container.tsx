@@ -1,5 +1,5 @@
-import React from 'react';
 import cx from 'classnames';
+import React from 'react';
 
 export interface IContainerProps extends React.HTMLAttributes<HTMLDivElement> {
 	as?: string;
@@ -19,11 +19,7 @@ const Container: React.FC<IContainerProps> = ({
 		large: 'max-w-screen-xl mx-auto px-6'
 	};
 
-	return React.createElement(
-		as,
-		{ className: cx(sizes[size], className), ...props },
-		children
-	);
+	return React.createElement(as, { className: cx(sizes[size], className), ...props }, children);
 };
 
 export default Container;

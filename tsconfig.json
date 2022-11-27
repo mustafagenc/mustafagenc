@@ -16,14 +16,20 @@
 		"incremental": true,
 		"baseUrl": ".",
 		"paths": {
-			"contentlayer/generated": ["./.contentlayer/generated"],
 			"@/components/*": ["components/*"],
 			"@/hooks/*": ["hooks/*"],
-			"@/lib/*": ["lib/*"],
+			"@/helpers/*": ["helpers/*"],
 			"@/styles/*": ["styles/*"],
-			"@/types/*": ["types/*"]
-		}
+			"@/types/*": ["types/*"],
+			"@/data/*": ["data/*"],
+			"contentlayer/generated": ["./.contentlayer/generated"]
+		},
+		"plugins": [
+			{
+				"name": "next"
+			}
+		]
 	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".contentlayer/generated"],
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".contentlayer/generated"],
 	"exclude": ["node_modules"]
 }
