@@ -14,7 +14,8 @@ module.exports = withContentlayer({
 			'api.spotify.com',
 			'accounts.spotify.com',
 			'i.scdn.co',
-			'api.raindrop.io'
+			'api.raindrop.io',
+			'eu2-sensible-mollusk-31210.upstash.io'
 		]
 	},
 	staticPageGenerationTimeout: 10,
