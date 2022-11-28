@@ -4,6 +4,7 @@ import Raindrop from '@/helpers/raindrop';
 import { ILink } from '@/types/index';
 import { format, startOfWeek } from 'date-fns';
 import { tr } from 'date-fns/locale';
+import { Suspense } from 'react';
 
 export const revalidate = 7200; // 60*60*2
 
@@ -29,5 +30,9 @@ async function fetchData() {
 export default async function Bookmark() {
 	const { data, year } = await fetchData();
 
-	return <BookmarkLayout data={data} year={year} onlyThisWeek />;
+	return (
+		<Suspense fallback={<div>Loading...</div>}>
+			<BookmarkLayout data={data} year={year} onlyThisWeek />
+		</Suspense>
+	);
 }

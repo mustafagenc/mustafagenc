@@ -19,6 +19,15 @@ function BookmarkCard({ bookmark }: { bookmark: ILink }) {
 						locale: tr
 					})}
 				</span>
+				{bookmark.tags.length > 0 ? <span>•</span> : ''}
+				{bookmark.tags.map((tag) => (
+					<span
+						key={tag}
+						className="rounded-full bg-sky-50 px-2 py-1 text-xs font-medium leading-none text-sky-600 dark:bg-sky-900 dark:bg-opacity-20 dark:text-sky-700"
+					>
+						{tag}
+					</span>
+				))}
 			</div>
 		</article>
 	);

@@ -77,6 +77,7 @@ export default class Raindrop {
 		const response = await this.fetch({ url });
 		const data: Result = await response.json();
 
+
 		if (!allData) return this.normalizeData(data.items);
 
 		if (data.items.length === perPage) {
