@@ -22,7 +22,7 @@ export default function Home() {
 				</div>
 				<div className="relative mb-8 mr-auto sm:mb-0">
 					<NextImage
-						src="https://s.gravatar.com/avatar/4562fd5e379b39cd7eea97397d0a4442?s=400"
+						src="/photos/mustafa-genc.jpg"
 						alt={'Mustafa Genç'}
 						width={150}
 						height={150}
