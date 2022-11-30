@@ -24,17 +24,21 @@ export default function PostPage({ params }) {
 		<Container>
 			<article className="post">
 				<header>
-					<h1 className="shine text-2xl font-semibold">{post.title}</h1>
-					<h2 className="mt-2 text-xl">{post.subtitle}</h2>
-
-					<div className="mt-10 flex items-center space-x-2 opacity-60">
-						<time dateTime={post.date}>
-							{format(parseISO(post.date), 'd LLLL yyyy', {
-								locale: tr
-							})}
-						</time>
-						<span>·</span>
-						<span>{post.readingTime.text}</span>
+					<h1 className="mb-4 text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl">
+						{post.title}
+					</h1>
+					<div className="mt-2 flex w-full flex-col items-start justify-between md:flex-row md:items-center">
+						<div className="flex items-center">
+							<p className="text-sm text-gray-700 dark:text-gray-300">
+								Mustafa Genç /{' '}
+								{format(parseISO(post.date), 'd LLLL yyyy', {
+									locale: tr
+								})}
+							</p>
+						</div>
+						<p className="min-w-32 mt-2 text-sm text-gray-600 dark:text-gray-400 md:mt-0">
+							{post.readingTime.text}
+						</p>
 					</div>
 				</header>
 

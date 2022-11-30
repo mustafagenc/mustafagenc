@@ -1,7 +1,7 @@
 export default function Head() {
 	return (
 		<>
-			<title>Yazılar</title>
+			<title>Kısa Notlar</title>
 			<meta name="description" content="Kısa notlar." />
 		</>
 	);

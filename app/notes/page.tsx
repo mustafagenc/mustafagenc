@@ -21,32 +21,32 @@ export default function PostsPage() {
 
 	return (
 		<>
-			<Container>
+			<Container className="mb-8">
 				<Title>Kısa notlar</Title>
 			</Container>
 
-			<Container className="mt-20">
-				<div className="space-y-8">
+			<Container>
+				<div className="mb-8 w-full">
 					{posts.map((post) => {
 						return (
-							<article key={post._id}>
-								<header>
-									<h3 className="shine font-semibold">
-										<NextLink href={`/blog/${post.slug}`}>{post.title}</NextLink>
-									</h3>
-									<p className="mt-1">{post.subtitle}</p>
-								</header>
-
-								<footer className="mt-1 flex items-center space-x-2">
-									<time dateTime={post.date}>
+							<NextLink className="text-white" href={`/notes/${post.slug}`}>
+								<article key={post._id} className="mb-6">
+									<header className="flex flex-col justify-between md:flex-row">
+										<h3 className="mb-2 w-full text-lg font-medium text-gray-900 dark:text-gray-100 md:text-xl">
+											{post.title}
+										</h3>
+										<span className="mb-4 w-32 text-left text-gray-500 md:mb-0 md:text-right">
+											{post.readingTime.text}
+										</span>
+									</header>
+									<time dateTime={post.date} className="hidden">
 										{format(parseISO(post.date), 'd LLLL yyyy', {
 											locale: tr
 										})}
 									</time>
-									<span className="opacity-50">·</span>
-									<span>{post.readingTime.text}</span>
-								</footer>
-							</article>
+									<p className="text-gray-600 dark:text-gray-400">{post.subtitle}</p>
+								</article>
+							</NextLink>
 						);
 					})}
 				</div>

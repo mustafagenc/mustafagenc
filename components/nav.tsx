@@ -3,56 +3,44 @@
 import cx from 'classnames';
 import NextLink from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
 import Container from './container';
-import IconArrowDropDown from './icons/arrow-drop-down';
 
 const MENU = {
 	'/': 'Hakkımda',
-	'/blog': 'Yazılar',
+	'/notes': 'Notlar',
 	'/bookmarks': 'Yer İmleri',
 	'/apps': 'Uygulamalar'
 };
 
 export default function Navigation() {
-	const [isNavOpen, setIsNavOpen] = useState(false);
-
 	const pathname = usePathname();
 	const clearSlash = pathname.split('/')[1];
 	const path = clearSlash ? `/${clearSlash}` : '/';
-
-	useEffect(() => {
-		setIsNavOpen(false);
-	}, [pathname]);
-
 	return (
 		<header className="">
 			<Container>
-				<nav className={cx(isNavOpen ? 'flex' : 'hidden', 'flex-col gap-3 sm:!flex sm:flex-row')}>
-					{Object.keys(MENU).map((path) => {
-						const isActive = path === path;
-						return (
-							<span key={path}>
-								<NextLink href={path} className={cx(isActive ? 'shine' : '')}>
-									{MENU[path]}
-								</NextLink>
-							</span>
-						);
-					})}
+				<nav className={'relative flex w-full items-center justify-between'}>
+					<div className="ml-[-0.60rem]">
+						{Object.entries(MENU).map(([key, value]) => {
+							const isActive = key === path;
+							return (
+								<span key={key}>
+									<NextLink
+										href={key}
+										className={cx(
+											'rounded-lg p-1 transition-all hover:bg-gray-200 dark:text-gray-200 dark:hover:bg-sky-900 dark:hover:bg-opacity-50 sm:px-3 sm:py-2 md:inline-block',
+											isActive
+												? 'font-semibold text-gray-800'
+												: 'font-normal text-gray-600'
+										)}
+									>
+										{value}
+									</NextLink>
+								</span>
+							);
+						})}
+					</div>
 				</nav>
-
-				{!isNavOpen && (
-					<button
-						type="button"
-						className="flex select-none items-center sm:hidden"
-						onClick={() => {
-							setIsNavOpen(true);
-						}}
-					>
-						<span>{MENU[path]}</span>
-						<IconArrowDropDown className="opacity-50" />
-					</button>
-				)}
 			</Container>
 		</header>
 	);

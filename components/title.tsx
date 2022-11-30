@@ -9,7 +9,13 @@ export interface ITitleProps extends React.HTMLAttributes<HTMLDivElement> {
 const Title: React.FC<ITitleProps> = ({ as = 'h2', children, className, ...props }: ITitleProps) => {
 	return React.createElement(
 		as,
-		{ className: cx('shine text-2xl leading-snug', className), ...props },
+		{
+			className: cx(
+				'font-bold text-3xl md:text-4xl tracking-tight mb-1 text-black dark:text-white',
+				className
+			),
+			...props
+		},
 		children
 	);
 };

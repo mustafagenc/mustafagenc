@@ -19,8 +19,4 @@
 	.post-body pre[class*='language-']::-webkit-scrollbar {
 		@apply hidden;
 	}
-
-	.shine {
-		@apply text-zinc-900 dark:text-zinc-50;
-	}
 }

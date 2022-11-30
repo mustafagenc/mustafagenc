@@ -6,7 +6,7 @@ import { tr } from 'date-fns/locale';
 function BookmarkCard({ bookmark }: { bookmark: ILink }) {
 	return (
 		<article className="py-4">
-			<h3 className="shine font-semibold">
+			<h3 className="font-semibold">
 				<Link href={bookmark.link}>{bookmark.title}</Link>
 			</h3>
 
