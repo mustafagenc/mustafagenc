@@ -11,10 +11,7 @@ export default function BookmarkLayout({ data, year, onlyThisWeek = false }) {
 
 	return (
 		<Container>
-			<Title>
-				İnternette gezinirken beğendiğim ve beni takip edenlerin de beğeneceğini düşündüğüm, belli bir
-				kategorisi olmayan karışık şeyler.
-			</Title>
+			<Title>Kategorisi olmayan karışık bağlantılar.</Title>
 
 			{sortedData.map((date) => (
 				<div key={date} className="mt-20">
@@ -34,8 +31,7 @@ export default function BookmarkLayout({ data, year, onlyThisWeek = false }) {
 				<div className="mt-16">
 					<Link
 						href={`/bookmarks/${getYear(new Date())}`}
-						className="rounded-lg bg-zinc-50 py-3 px-4 hover:bg-zinc-100
-              dark:border-zinc-700 dark:bg-zinc-800 dark:hover:bg-zinc-700"
+						className="rounded-lg bg-zinc-50 py-3 px-4 transition-all hover:bg-zinc-100 dark:bg-sky-900 dark:text-gray-200 dark:hover:bg-sky-900 dark:hover:bg-opacity-50"
 					>
 						Tüm listeyi görüntüle →
 					</Link>

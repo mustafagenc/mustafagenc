@@ -18,7 +18,7 @@ export default async function AppsPage() {
 
 	return (
 		<Container>
-			<Title>Uzun süredir kullandığım ve memnun kaldığım uygulamaların listesi.</Title>
+			<Title>Kullandığım uygulamaların listesi.</Title>
 		</Container>
 	);
 }
