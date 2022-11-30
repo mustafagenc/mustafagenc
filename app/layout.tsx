@@ -1,11 +1,10 @@
 'use client';
-
 import '@/styles/globals.css';
 import '@upstash/claps/style.css';
 
 import Footer from '@/components/footer';
 import Navigation from '@/components/nav';
-import { Inter } from '@next/font/google';
+import { Inconsolata } from '@next/font/google';
 import mailgo from 'mailgo';
 import { useEffect } from 'react';
 import AnalyticsWrapper from './analytics';
@@ -13,8 +12,8 @@ import AnalyticsWrapper from './analytics';
 const mailgoConfig = {
 	dark: true
 };
-const inter = Inter({
-	variable: '--font-inter',
+const inconsolata = Inconsolata({
+	variable: '--font-inconsolata',
 	display: 'swap',
 	style: 'normal',
 	subsets: ['latin-ext']
@@ -26,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	}, []);
 
 	return (
-		<html lang="tr" className={`scroll-smooth ${inter.variable} dark`}>
+		<html lang="tr" className={`scroll-smooth ${inconsolata.variable} dark`}>
 			<body className="bg-white text-white dark:bg-black dark:text-black">
 				<div className="flex min-h-screen flex-col pt-10 pb-14">
 					<Navigation />
