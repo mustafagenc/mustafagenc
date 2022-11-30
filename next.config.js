@@ -15,7 +15,8 @@ module.exports = withContentlayer({
 			'accounts.spotify.com',
 			'i.scdn.co',
 			'api.raindrop.io',
-			'eu2-sensible-mollusk-31210.upstash.io'
+			'eu2-sensible-mollusk-31210.upstash.io',
+			'v5.airtableusercontent.com'
 		]
 	},
 	staticPageGenerationTimeout: 10,
