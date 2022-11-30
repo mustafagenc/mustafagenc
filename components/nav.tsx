@@ -19,8 +19,8 @@ export default function Navigation() {
 	return (
 		<header className="">
 			<Container>
-				<nav className={'relative flex w-full items-center justify-between'}>
-					<div className="ml-[-0.60rem]">
+				<div className="ml-[-0.60rem]">
+					<nav className={'relative flex w-full items-start'}>
 						{Object.entries(MENU).map(([key, value]) => {
 							const isActive = key === path;
 							return (
@@ -39,8 +39,8 @@ export default function Navigation() {
 								</span>
 							);
 						})}
-					</div>
-				</nav>
+					</nav>
+				</div>
 			</Container>
 		</header>
 	);
