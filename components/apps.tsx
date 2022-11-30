@@ -9,7 +9,7 @@ export default function Apps({ data }: { data: IApp[] }) {
 	const [selectedTab, setSelectedTab] = useState('macOS');
 
 	const os = [
-		...new Set(data.flatMap((tool: IApp) => tool.os).sort((a, b) => a.localeCompare(b)) as string[])
+		...new Set(data?.flatMap((tool: IApp) => tool.os).sort((a, b) => a.localeCompare(b)) as string[])
 	];
 
 	return (
