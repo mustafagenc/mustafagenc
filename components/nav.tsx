@@ -3,6 +3,7 @@
 import cx from 'classnames';
 import NextLink from 'next/link';
 import { usePathname } from 'next/navigation';
+import { FcBiohazard, FcBriefcase, FcLike, FcShare } from 'react-icons/fc';
 import Container from './container';
 
 const MENU = {
@@ -11,6 +12,8 @@ const MENU = {
 	'/bookmarks': 'Yer İmleri',
 	'/apps': 'Uygulamalar'
 };
+
+//https://react-icons.github.io/react-icons/icons?name=fc
 
 export default function Navigation() {
 	const pathname = usePathname();
@@ -34,6 +37,10 @@ export default function Navigation() {
 												: 'font-normal text-gray-600'
 										)}
 									>
+										{key == '/' ? <FcBiohazard /> : null}
+										{key == '/notes' ? <FcBriefcase /> : null}
+										{key == '/bookmarks' ? <FcLike /> : null}
+										{key == '/apps' ? <FcShare /> : null}
 										{value}
 									</NextLink>
 								</span>
