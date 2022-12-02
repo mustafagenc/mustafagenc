@@ -1,0 +1,26 @@
+{
+  "date": "2022-12-02T00:00:00.000Z",
+  "title": "Namaz Vakitleri API",
+  "subtitle": "Dünya'daki tüm şehirlerin namaz vakitlerini hesaplayan bir API.",
+  "body": {
+    "raw": "\r\nAPI'yi kullanarak dünyadaki şehirlerin namaz vakitlerini hesaplayabilirsiniz.\r\n\r\n## API Erişim Noktaları\r\n\r\n-   Heroku: [https://vakitnamazlari.herokuapp.com/docs/](https://vakitnamazlari.herokuapp.com/docs/)\r\n-   Postman Collection: [https://www.getpostman.com/collections/9d4e7131672ed2619725](https://www.getpostman.com/collections/9d4e7131672ed2619725)\r\n\r\n### Rate Limit\r\n\r\nŞu an için kullanım ile alakalı herhangi bir kısıtlama yoktur.\r\n\r\n### Referanslar\r\n\r\n-   [Fazilet Takvimi](https://fazilettakvimi.com/sual-ve-cevaplar/14/)\r\n-   [Türk Takvimi](https://www.turktakvim.com/index.php?link=html/muhim_tenbih.html)\r\n-   [Namaz Vakti](https://www.namazvakti.com/tr.1.pdf)\r\n-   [Akra](https://akra.media/Araclar/NamazVakti)\r\n",
+    "code": "var Component=(()=>{var s=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var f=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),w=(n,a)=>{for(var e in a)r(n,e,{get:a[e],enumerable:!0})},h=(n,a,e,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of k(a))!u.call(n,t)&&t!==e&&r(n,t,{get:()=>a[t],enumerable:!(l=d(a,t))||l.enumerable});return n};var v=(n,a,e)=>(e=n!=null?s(p(n)):{},h(a||!n||!n.__esModule?r(e,\"default\",{value:n,enumerable:!0}):e,n)),z=n=>h(r({},\"__esModule\",{value:!0}),n);var m=f((y,c)=>{c.exports=_jsx_runtime});var g={};w(g,{default:()=>b,frontmatter:()=>x});var i=v(m()),x={date:\"2022-12-02\",title:\"Namaz Vakitleri API\",subtitle:\"D\\xFCnya'daki t\\xFCm \\u015Fehirlerin namaz vakitlerini hesaplayan bir API.\"};function o(n){let a=Object.assign({p:\"p\",h2:\"h2\",ul:\"ul\",li:\"li\",a:\"a\",h3:\"h3\"},n.components);return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(a.p,{children:\"API'yi kullanarak d\\xFCnyadaki \\u015Fehirlerin namaz vakitlerini hesaplayabilirsiniz.\"}),`\n`,(0,i.jsx)(a.h2,{children:\"API Eri\\u015Fim Noktalar\\u0131\"}),`\n`,(0,i.jsxs)(a.ul,{children:[`\n`,(0,i.jsxs)(a.li,{children:[\"Heroku: \",(0,i.jsx)(a.a,{href:\"https://vakitnamazlari.herokuapp.com/docs/\",children:\"https://vakitnamazlari.herokuapp.com/docs/\"})]}),`\n`,(0,i.jsxs)(a.li,{children:[\"Postman Collection: \",(0,i.jsx)(a.a,{href:\"https://www.getpostman.com/collections/9d4e7131672ed2619725\",children:\"https://www.getpostman.com/collections/9d4e7131672ed2619725\"})]}),`\n`]}),`\n`,(0,i.jsx)(a.h3,{children:\"Rate Limit\"}),`\n`,(0,i.jsx)(a.p,{children:\"\\u015Eu an i\\xE7in kullan\\u0131m ile alakal\\u0131 herhangi bir k\\u0131s\\u0131tlama yoktur.\"}),`\n`,(0,i.jsx)(a.h3,{children:\"Referanslar\"}),`\n`,(0,i.jsxs)(a.ul,{children:[`\n`,(0,i.jsx)(a.li,{children:(0,i.jsx)(a.a,{href:\"https://fazilettakvimi.com/sual-ve-cevaplar/14/\",children:\"Fazilet Takvimi\"})}),`\n`,(0,i.jsx)(a.li,{children:(0,i.jsx)(a.a,{href:\"https://www.turktakvim.com/index.php?link=html/muhim_tenbih.html\",children:\"T\\xFCrk Takvimi\"})}),`\n`,(0,i.jsx)(a.li,{children:(0,i.jsx)(a.a,{href:\"https://www.namazvakti.com/tr.1.pdf\",children:\"Namaz Vakti\"})}),`\n`,(0,i.jsx)(a.li,{children:(0,i.jsx)(a.a,{href:\"https://akra.media/Araclar/NamazVakti\",children:\"Akra\"})}),`\n`]})]})}function _(n={}){let{wrapper:a}=n.components||{};return a?(0,i.jsx)(a,Object.assign({},n,{children:(0,i.jsx)(o,n)})):o(n)}var b=_;return z(g);})();\n;return Component;"
+  },
+  "_id": "posts/namaz-vakitleri.mdx",
+  "_raw": {
+    "sourceFilePath": "posts/namaz-vakitleri.mdx",
+    "sourceFileName": "namaz-vakitleri.mdx",
+    "sourceFileDir": "posts",
+    "contentType": "mdx",
+    "flattenedPath": "posts/namaz-vakitleri"
+  },
+  "type": "Post",
+  "slug": "namaz-vakitleri",
+  "url": "https://mustafagenc.com/blog/undefined",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.22,
+    "time": 13200,
+    "words": 44
+  }
+}
