@@ -26,6 +26,7 @@
 		"@upstash/claps": "^1.0.0-beta.4",
 		"@vercel/analytics": "^0.1.5",
 		"classnames": "^2.3.2",
+		"cnbuilder": "^3.1.0",
 		"date-fns": "^2.29.3",
 		"feed": "^4.2.2",
 		"framer-motion": "^7.6.15",

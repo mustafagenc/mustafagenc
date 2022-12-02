@@ -1,4 +1,4 @@
-import cn from 'classnames';
+import { cnb } from 'cnbuilder';
 import { ReactNode } from 'react';
 
 export type BaseLinkProps = {
@@ -16,7 +16,7 @@ export default function BaseLink({ children, href, blank = true, className, ...p
 		  }
 		: {};
 	return (
-		<a href={href} className={cn(className)} {...isBlank} {...props}>
+		<a href={href} className={cnb(className)} {...isBlank} {...props}>
 			{children}
 		</a>
 	);
@@ -25,7 +25,7 @@ export default function BaseLink({ children, href, blank = true, className, ...p
 export function StyleLink({ className, ...props }: BaseLinkProps) {
 	return (
 		<BaseLink
-			className={cn(
+			className={cnb(
 				'decoration-2 underline-offset-2',
 				'dark:hover:text-zinc-50 dark:hover:decoration-sky-500',
 				'underline decoration-zinc-500 hover:text-zinc-900 dark:decoration-zinc-600',
