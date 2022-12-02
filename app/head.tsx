@@ -40,15 +40,6 @@ export default function Head() {
 			<meta name="theme-color" content="#39A5E8" />
 			<meta content="#39A5E8" name="theme-color" />
 			<meta content="#39A5E8" name="msapplication-TileColor" />
-
-			<script
-				data-host="https://microanalytics.io"
-				data-dnt="false"
-				src="https://microanalytics.io/js/script.js"
-				id="ZwSg9rf6GA"
-				async
-				defer
-			></script>
 		</>
 	);
 }
