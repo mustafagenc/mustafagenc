@@ -13,7 +13,10 @@ export default function Head() {
 			<meta charSet="utf-8" />
 			<meta name="robots" content="follow, index" />
 			<meta httpEquiv="x-ua-compatible" content="ie=edge" />
-			<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<meta
+				name="viewport"
+				content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+			/>
 
 			<title>{meta.title}</title>
 			<meta name="description" content={meta.description} />

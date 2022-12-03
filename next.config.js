@@ -21,6 +21,7 @@ module.exports = withContentlayer({
 	},
 	staticPageGenerationTimeout: 10,
 	experimental: {
-		appDir: true
+		appDir: true,
+		serverComponentsExternalPackages: ['sentry']
 	}
 });

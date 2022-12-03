@@ -34,7 +34,7 @@ export default function Navigation() {
 									<NextLink
 										href={key}
 										className={cx(
-											'rounded-lg p-1 transition-all hover:bg-gray-200 dark:text-gray-200 dark:hover:bg-sky-900 dark:hover:bg-opacity-50 sm:px-3 sm:py-2 md:inline-block',
+											'inline-block rounded-lg p-1 px-2 py-1 transition-all hover:bg-gray-200 dark:text-gray-200 dark:hover:bg-sky-900 dark:hover:bg-opacity-50',
 											isActive
 												? 'font-semibold text-gray-800'
 												: 'font-normal text-gray-600'

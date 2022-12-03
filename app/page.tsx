@@ -9,7 +9,7 @@ export default function Home() {
 	return (
 		<Container>
 			<div className="flex flex-col-reverse items-start sm:flex-row">
-				<div className="flex flex-col pr-8">
+				<div className="flex flex-col md:pr-8">
 					<Title>Merhaba, Ben Mustafa 🖖</Title>
 					<SubTitle>İstanbul&apos;da yaşayan İzmirli bir Geliştiriciyim.</SubTitle>
 					<p className="mb-16 text-gray-600 dark:text-gray-400">
@@ -20,7 +20,7 @@ export default function Home() {
 						şirketinde Kıdemli Yazılım Geliştirici olarak çalışıyorum.
 					</p>
 				</div>
-				<div className="relative mb-8 mr-auto sm:mb-0">
+				<div className="relative mb-8 flex w-full justify-center md:mr-auto md:w-fit">
 					<NextImage
 						src="/photos/mustafa-genc.jpg"
 						alt={'Mustafa Genç'}

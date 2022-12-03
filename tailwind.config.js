@@ -3,7 +3,14 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
 	//prefix: 'mg-',
 	//important: true,
-	darkMode: 'media', // "class",
+	darkMode: 'class', // "class",
+	mode: 'jit',
+	purge: [
+		'./public/**/*.html',
+		'./app/**/*.{js,jsx,ts,tsx,vue}',
+		'./components/**/*.{js,jsx,ts,tsx,vue}',
+		'./public/**/*.{js,jsx,ts,tsx,vue}'
+	],
 	content: ['./components/**/*.tsx', './app/**/*.tsx'],
 	safelist: [
 		{
