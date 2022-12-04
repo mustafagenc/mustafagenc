@@ -18,10 +18,11 @@ const MENU = {
 
 //https://react-icons.github.io/react-icons/icons?name=fc
 
-export default function Navigation() {
+export default function Navigation({ ...props }) {
 	const pathname = usePathname();
 	const clearSlash = pathname.split('/')[1];
 	const path = clearSlash ? `/${clearSlash}` : '/';
+
 	return (
 		<header className="">
 			<Container>

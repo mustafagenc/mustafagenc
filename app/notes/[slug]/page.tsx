@@ -5,6 +5,7 @@ import { allPosts, Post } from 'contentlayer/generated';
 import { format, parseISO } from 'date-fns';
 import { tr } from 'date-fns/locale';
 import { useMDXComponent } from 'next-contentlayer/hooks';
+import NextLink from 'next/link';
 import { notFound } from 'next/navigation';
 
 export async function generateStaticParams() {
@@ -30,7 +31,7 @@ export default function PostPage({ params }) {
 					<div className="mt-2 flex w-full flex-col items-start justify-between md:flex-row md:items-center">
 						<div className="flex items-center">
 							<p className="text-sm text-gray-700 dark:text-gray-300">
-								Mustafa Genç /{' '}
+								<NextLink href="https://mustafagenc.info">Mustafa Genç</NextLink> /{' '}
 								{format(parseISO(post.date), 'd LLLL yyyy', {
 									locale: tr
 								})}

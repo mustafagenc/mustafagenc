@@ -15,7 +15,7 @@ const Container: React.FC<IContainerProps> = ({
 	...props
 }: IContainerProps) => {
 	const sizes = {
-		small: 'max-w-screen-sm mx-auto px-6',
+		small: 'max-w-screen-sm mx-auto px-4',
 		default: 'max-w-screen-md mx-auto px-10'
 	};
 

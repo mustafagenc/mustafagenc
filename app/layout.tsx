@@ -6,6 +6,7 @@ import Footer from '@/components/footer';
 import Navigation from '@/components/nav';
 import { Inconsolata } from '@next/font/google';
 import mailgo from 'mailgo';
+
 import { useEffect } from 'react';
 import AnalyticsWrapper from './analytics';
 
