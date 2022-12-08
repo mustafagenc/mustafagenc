@@ -5,13 +5,12 @@ module.exports = {
 	//important: true,
 	darkMode: 'class', // "class",
 	mode: 'jit',
-	purge: [
+	content: [
 		'./public/**/*.html',
 		'./app/**/*.{js,jsx,ts,tsx,vue}',
 		'./components/**/*.{js,jsx,ts,tsx,vue}',
 		'./public/**/*.{js,jsx,ts,tsx,vue}'
 	],
-	content: ['./components/**/*.tsx', './app/**/*.tsx'],
 	safelist: [
 		{
 			pattern: /grid-cols-(2|3|4|5|6)/, // this config for blog post photo grid

@@ -12,12 +12,19 @@ export default function Home() {
 				<div className="flex flex-col md:pr-8">
 					<Title>Merhaba, Ben Mustafa 🖖</Title>
 					<SubTitle>İstanbul&apos;da yaşayan İzmirli bir Geliştiriciyim.</SubTitle>
-					<p className="mb-16 text-gray-600 dark:text-gray-400">
+					<p className="mb-2 text-gray-600 dark:text-gray-400">
 						Şu anda{' '}
 						<StyleLink href="https://www.enkasystems.com/solutions/egem-global-equipment-management-system/">
 							ENKA Systems
 						</StyleLink>{' '}
 						şirketinde Kıdemli Yazılım Geliştirici olarak çalışıyorum.
+					</p>
+					<p className="mb-16 text-gray-600 dark:text-gray-400">
+						Her hangi bir konuda bana{' '}
+						<StyleLink href="#mailgo" data-address="ben" data-domain="mstf.dev">
+							ben@mstf.dev
+						</StyleLink>{' '}
+						adresinden ulaşabilirsiniz.
 					</p>
 				</div>
 				<div className="relative mb-8 flex w-full justify-center md:mr-auto md:w-fit">
