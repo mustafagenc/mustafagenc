@@ -11,7 +11,7 @@ const Title: React.FC<ITitleProps> = ({ as = 'h2', children, className, ...props
 		as,
 		{
 			className: cx(
-				'font-bold text-3xl md:text-4xl tracking-tight mb-1 text-black dark:text-white',
+				'font-bold text-3xl md:text-4xl tracking-tight mb-1 text-black dark:text-teal-500',
 				className
 			),
 			...props
