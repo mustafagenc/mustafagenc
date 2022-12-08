@@ -16,7 +16,7 @@ async function getData() {
 }
 
 export default async function AppsPage() {
-	const data = (await getData()) || [];
+	const data = await getData();
 
 	const apps: IApp[] =
 		data?.length &&
@@ -27,7 +27,7 @@ export default async function AppsPage() {
 	return (
 		<Container>
 			<Title>Kullandığım uygulamaların listesi.</Title>
-			<Apps data={apps} />
+			<Apps data={apps || []} />
 		</Container>
 	);
 }
