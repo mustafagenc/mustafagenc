@@ -1,4 +1,4 @@
-import { IApp } from '../types';
+import { IApp } from '@/types';
 
 const Airtable = require('airtable');
 

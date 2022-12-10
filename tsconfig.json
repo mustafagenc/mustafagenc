@@ -16,20 +16,27 @@
 		"incremental": true,
 		"baseUrl": ".",
 		"paths": {
-			"@/components/*": ["components/*"],
-			"@/hooks/*": ["hooks/*"],
-			"@/helpers/*": ["helpers/*"],
-			"@/styles/*": ["styles/*"],
-			"@/types/*": ["types/*"],
-			"@/data/*": ["data/*"],
+			"@/*": ["./src/*"],
+			"$/*": ["./public/*"],
+			"*": ["node_modules/*"],
 			"contentlayer/generated": ["./.contentlayer/generated"]
 		},
 		"plugins": [
 			{
 				"name": "next"
 			}
-		]
+		],
+		"typeRoots": ["./node_modules/@types", "./src/types"]
 	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".contentlayer/generated"],
-	"exclude": ["node_modules"]
+	"include": [
+		"next-env.d.ts",
+		"next.config.js",
+		"src/**/*.module.css",
+		"src/**/*.css",
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		".next/types/**/*.ts",
+		".contentlayer/generated"
+	],
+	"exclude": ["node_modules", "dist", ".next", ".vercel"]
 }
