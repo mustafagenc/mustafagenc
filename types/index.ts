@@ -35,7 +35,7 @@ export type IApp = {
 	description: string;
 	icon: IAirtableImages;
 	url: string;
-	os: string[]; // ["iOS", "macOS"]
+	os: string;
 	free: boolean;
 };
 

@@ -23,8 +23,8 @@ export default function Apps({ data }: { data: IApp[] }) {
 			/>
 			<div className="mt-10 divide-y divide-zinc-100 dark:divide-zinc-800">
 				{data
-					?.filter((app: IApp) => app.os.includes(selectedTab))
-					?.map((app) => (
+					.filter((app) => app.os === selectedTab)
+					.map((app) => (
 						<AppCard key={app.id} app={app} />
 					))}
 			</div>

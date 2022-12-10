@@ -17,7 +17,7 @@ export default function AppCard({ app }: { app: IApp }) {
 		>
 			<figure className={cx('flex h-16 w-16 shrink-0 items-center justify-center')}>
 				<Image
-					src={icon[0].thumbnails.large.url}
+					src={icon[0]?.thumbnails.large.url}
 					alt={name}
 					width={photo.thumbnails.large.width}
 					height={photo.thumbnails.large.height}
