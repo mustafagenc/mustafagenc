@@ -1,0 +1,35 @@
+{
+  "cacheItemsMap": {
+    "posts/namaz-vakitleri.mdx": {
+      "document": {
+        "date": "2022-12-02T00:00:00.000Z",
+        "title": "Namaz Vakitleri API",
+        "subtitle": "Dünya'daki tüm şehirlerin namaz vakitlerini hesaplayan bir API.",
+        "body": {
+          "raw": "\nAPI'yi kullanarak dünyadaki şehirlerin namaz vakitlerini hesaplayabilirsiniz.\n\n## API Erişim Noktaları\n\n-   Heroku: [https://api.namazvakti.app/docs/](https://api.namazvakti.app/docs/)\n\n### Rate Limit\n\nŞu an için kullanım ile alakalı herhangi bir kısıtlama yoktur ancak yakın zamanda bazı kısıtlamalar getirilecek.\n\n### Referanslar\n\n-   [Fazilet Takvimi](https://fazilettakvimi.com/sual-ve-cevaplar/14/)\n-   [Türk Takvimi](https://www.turktakvim.com/index.php?link=html/muhim_tenbih.html)\n-   [Namaz Vakti](https://www.namazvakti.com/tr.1.pdf)\n-   [Akra](https://akra.media/Araclar/NamazVakti)\n",
+          "code": "var Component=(()=>{var d=Object.create;var r=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var o=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var f=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),z=(n,a)=>{for(var e in a)r(n,e,{get:a[e],enumerable:!0})},h=(n,a,e,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of o(a))!u.call(n,t)&&t!==e&&r(n,t,{get:()=>a[t],enumerable:!(l=k(a,t))||l.enumerable});return n};var v=(n,a,e)=>(e=n!=null?d(p(n)):{},h(a||!n||!n.__esModule?r(e,\"default\",{value:n,enumerable:!0}):e,n)),x=n=>h(r({},\"__esModule\",{value:!0}),n);var m=f((g,c)=>{c.exports=_jsx_runtime});var j={};z(j,{default:()=>_,frontmatter:()=>b});var i=v(m()),b={date:\"2022-12-02\",title:\"Namaz Vakitleri API\",subtitle:\"D\\xFCnya'daki t\\xFCm \\u015Fehirlerin namaz vakitlerini hesaplayan bir API.\"};function s(n){let a=Object.assign({p:\"p\",h2:\"h2\",ul:\"ul\",li:\"li\",a:\"a\",h3:\"h3\"},n.components);return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(a.p,{children:\"API'yi kullanarak d\\xFCnyadaki \\u015Fehirlerin namaz vakitlerini hesaplayabilirsiniz.\"}),`\n`,(0,i.jsx)(a.h2,{children:\"API Eri\\u015Fim Noktalar\\u0131\"}),`\n`,(0,i.jsxs)(a.ul,{children:[`\n`,(0,i.jsxs)(a.li,{children:[\"Heroku: \",(0,i.jsx)(a.a,{href:\"https://api.namazvakti.app/docs/\",children:\"https://api.namazvakti.app/docs/\"})]}),`\n`]}),`\n`,(0,i.jsx)(a.h3,{children:\"Rate Limit\"}),`\n`,(0,i.jsx)(a.p,{children:\"\\u015Eu an i\\xE7in kullan\\u0131m ile alakal\\u0131 herhangi bir k\\u0131s\\u0131tlama yoktur ancak yak\\u0131n zamanda baz\\u0131 k\\u0131s\\u0131tlamalar getirilecek.\"}),`\n`,(0,i.jsx)(a.h3,{children:\"Referanslar\"}),`\n`,(0,i.jsxs)(a.ul,{children:[`\n`,(0,i.jsx)(a.li,{children:(0,i.jsx)(a.a,{href:\"https://fazilettakvimi.com/sual-ve-cevaplar/14/\",children:\"Fazilet Takvimi\"})}),`\n`,(0,i.jsx)(a.li,{children:(0,i.jsx)(a.a,{href:\"https://www.turktakvim.com/index.php?link=html/muhim_tenbih.html\",children:\"T\\xFCrk Takvimi\"})}),`\n`,(0,i.jsx)(a.li,{children:(0,i.jsx)(a.a,{href:\"https://www.namazvakti.com/tr.1.pdf\",children:\"Namaz Vakti\"})}),`\n`,(0,i.jsx)(a.li,{children:(0,i.jsx)(a.a,{href:\"https://akra.media/Araclar/NamazVakti\",children:\"Akra\"})}),`\n`]})]})}function y(n={}){let{wrapper:a}=n.components||{};return a?(0,i.jsx)(a,Object.assign({},n,{children:(0,i.jsx)(s,n)})):s(n)}var _=y;return x(j);})();\n;return Component;"
+        },
+        "_id": "posts/namaz-vakitleri.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/namaz-vakitleri.mdx",
+          "sourceFileName": "namaz-vakitleri.mdx",
+          "sourceFileDir": "posts",
+          "contentType": "mdx",
+          "flattenedPath": "posts/namaz-vakitleri"
+        },
+        "type": "Post",
+        "slug": "namaz-vakitleri",
+        "url": "https://mustafagenc.com/blog/undefined",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.23,
+          "time": 13800,
+          "words": 46
+        }
+      },
+      "documentHash": "1670689124890",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}

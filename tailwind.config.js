@@ -7,11 +7,9 @@ module.exports = {
 	mode: 'jit',
 	content: [
 		'./public/**/*.html',
-		'./public/**/*.{js,jsx,ts,tsx,vue}',
-		'./src/app/**/*.{js,jsx,ts,tsx,vue}',
-		'./src/pages/**/*.{js,jsx,ts,tsx,vue}',
-		'./src/components/**/*.{js,jsx,ts,tsx,vue}',
-		'./src/data/**/*.{md,mdx}'		
+		'./app/**/*.{js,jsx,ts,tsx,vue}',
+		'./components/**/*.{js,jsx,ts,tsx,vue}',
+		'./public/**/*.{js,jsx,ts,tsx,vue}'
 	],
 	safelist: [
 		{
