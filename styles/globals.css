@@ -19,4 +19,16 @@
 	.post-body pre[class*='language-']::-webkit-scrollbar {
 		@apply hidden;
 	}
+
+	.fade-anim img {
+		animation: fadeAnim 0.5s ease-out;
+	}
+	@keyframes fadeAnim {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
 }

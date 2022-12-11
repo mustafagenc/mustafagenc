@@ -39,6 +39,13 @@ export type IApp = {
 	free: boolean;
 };
 
+export type IIzmirPhotos = {
+	id: number;
+	name: string;
+	url: string;
+	image: IAirtableImages;
+};
+
 export type IActivity = {
 	id: string;
 	title: string;

@@ -1,7 +1,7 @@
 import Apps from '@/components/apps';
 import Container from '@/components/container';
 import Title from '@/components/title';
-import getApps from '@/helpers/airtable';
+import { getApps } from '@/helpers/airtable';
 
 export default async function AppsPage() {
 	const apps = await getApps();

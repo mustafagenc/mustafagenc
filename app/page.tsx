@@ -1,11 +1,15 @@
 import Container from '@/components/container';
+import IzmirPhotos from '@/components/izmir';
 import { StyleLink } from '@/components/link';
 import Social from '@/components/social';
 import SubTitle from '@/components/subtitle';
 import Title from '@/components/title';
+import { getIzmirPhotos } from '@/helpers/airtable';
 import NextImage from 'next/image';
 
-export default function Home() {
+export default async function Home() {
+	const izmirPhotos = await getIzmirPhotos();
+
 	return (
 		<Container>
 			<div className="flex flex-col-reverse items-start sm:flex-row">
@@ -40,6 +44,9 @@ export default function Home() {
 			</div>
 			<div className="mt-2">
 				<Social />
+			</div>
+			<div className="mt-6">
+				<IzmirPhotos data={izmirPhotos} />
 			</div>
 		</Container>
 	);
