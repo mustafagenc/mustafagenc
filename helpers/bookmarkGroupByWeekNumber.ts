@@ -2,7 +2,7 @@ import { ILink } from '@/types/index';
 import { format, parseISO } from 'date-fns';
 import groupBy from 'lodash.groupby';
 
-const bookmarkGroupByWeekNumber = (data) => {
+const bookmarkGroupByWeekNumber = (data: ILink[]) => {
 	return groupBy(data, (bookmark: ILink) => {
 		const dateISO = parseISO(bookmark.created);
 		const week = format(dateISO, 'I'); // ISO Week of Year (1-53)

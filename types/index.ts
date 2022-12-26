@@ -29,6 +29,14 @@ export type IAirtableImages = {
 	};
 };
 
+export type INote = {
+	status: boolean;
+	name: string;
+	slug: string;
+	summary: string;
+	created: Date;
+};
+
 export type IApp = {
 	id: string;
 	name: string;
