@@ -29,6 +29,34 @@ export type IAirtableImages = {
 	};
 };
 
+export type ITag = {
+	color: string;
+	id: string;
+	name: string;
+};
+
+export type INotes = {
+	id: string;
+	slug: string;
+	cover: string;
+	title: string;
+	tags: ITag[];
+	summary: string;
+	date: string;
+};
+
+export type INote = {
+	id: string;
+	slug: string;
+	cover: string;
+	title: string;
+	tags: ITag[];
+	summary: string;
+	date: string;
+	content: string;
+	readingTime: number;
+};
+
 export type IApp = {
 	id: string;
 	name: string;

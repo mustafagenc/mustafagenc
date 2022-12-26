@@ -1,10 +1,8 @@
-const { withContentlayer } = require('next-contentlayer');
-
 /**
  * @type {import('next').NextConfig}
  */
 
-module.exports = withContentlayer({
+module.exports = {
 	reactStrictMode: true,
 	images: {
 		domains: [
@@ -17,7 +15,9 @@ module.exports = withContentlayer({
 			'api.raindrop.io',
 			'eu2-sensible-mollusk-31210.upstash.io',
 			'v5.airtableusercontent.com',
-			'api.airtable.com'
+			'api.airtable.com',
+			'www.notion.so',
+			'notion.so',
 		]
 	},
 	staticPageGenerationTimeout: 10,
@@ -25,4 +25,4 @@ module.exports = withContentlayer({
 		appDir: true,
 		serverComponentsExternalPackages: ['sentry']
 	}
-});
+};

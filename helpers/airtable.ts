@@ -10,7 +10,7 @@ const app_table = base(process.env.AIRTABLE_APP_TABLE_NAME);
 const izmir_table = base(process.env.AIRTABLE_IZMIR_TABLE_NAME);
 
 const getMinifiedRecords = (records: any) => {
-	return records.map((record) => minifyRecord(record));
+	return records.map((record: any) => minifyRecord(record));
 };
 
 const minifyRecord = (record: any) => {
