@@ -2,7 +2,7 @@
 const config = {
 	siteUrl: process.env.SITE_URL || 'https://mustafagenc.info',
 	generateRobotsTxt: true,
-	generateIndexSitemap: false
+	generateIndexSitemap: false,
 };
 
 module.exports = config;
