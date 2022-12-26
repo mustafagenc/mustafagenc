@@ -17,7 +17,7 @@ module.exports = {
 			'v5.airtableusercontent.com',
 			'api.airtable.com',
 			'www.notion.so',
-			'notion.so',
+			'notion.so'
 		]
 	},
 	staticPageGenerationTimeout: 10,

@@ -1,8 +1,15 @@
 import Container from '@/components/container';
+import { StyleLink } from '@/components/link';
+import SubTitle from '@/components/subtitle';
+import Title from '@/components/title';
 import { getSinglePost } from '@/helpers/notion';
 import NextLink from 'next/link';
 import { notFound } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
+import rehypeKatex from 'rehype-katex';
+import rehypeRaw from 'rehype-raw';
+import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
 
 export default async function NotePage({ params }) {
 	const { slug } = params;
@@ -33,7 +40,18 @@ export default async function NotePage({ params }) {
 				</header>
 
 				<div className="post-body mt-10 leading-relaxed text-zinc-800 dark:text-zinc-200">
-					<ReactMarkdown>{post.content}</ReactMarkdown>
+					<ReactMarkdown
+						children={post.content}
+						remarkPlugins={[remarkGfm, remarkMath]}
+						rehypePlugins={[rehypeKatex, rehypeRaw]}
+						components={{
+							h1: 'h2',
+							h2: ({ node, ...props }) => <Title {...props} />,
+							h3: ({ node, ...props }) => <SubTitle {...props} />,
+							ul: ({ node, ...props }) => <ul className="list-inside list-disc" {...props} />,
+							a: ({ node, href, ...props }) => <StyleLink href={href} {...props} />
+						}}
+					/>
 				</div>
 
 				<div className="mt-20 flex justify-center">Claps</div>

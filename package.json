@@ -45,8 +45,11 @@
 		"react-easy-swipe": "^0.0.22",
 		"react-icons": "^4.7.1",
 		"react-markdown": "^8.0.4",
-		"react-syntax-highlighter": "^15.5.0",
-		"reading-time": "^1.5.0"
+		"reading-time": "^1.5.0",
+		"rehype-katex": "^6.0.2",
+		"rehype-raw": "^6.1.1",
+		"remark-gfm": "^3.0.1",
+		"remark-math": "^5.1.1"
 	},
 	"devDependencies": {
 		"@tailwindcss/aspect-ratio": "^0.4.2",
