@@ -48,6 +48,11 @@ export default async function Home() {
 			<div className="mt-6">
 				<IzmirPhotos data={izmirPhotos} />
 			</div>
+			<div className="mt-10 text-center text-sm text-gray-600 dark:text-gray-400">
+				Bu web sitesinin kaynak kodlarına{' '}
+				<StyleLink href="https://github.com/mustafagenc/mustafagenc">Github</StyleLink> üzerinden
+				ulaşabilirsiniz.
+			</div>
 		</Container>
 	);
 }
