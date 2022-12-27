@@ -4,7 +4,9 @@ import Title from '@/components/title';
 import { getAllPublished } from '@/helpers/notion';
 import NextLink from 'next/link';
 
-export const revalidate = 60
+export const revalidate = 60;
+
+//https://nextjs.org/docs/advanced-features/using-mdx
 
 export default async function NotesPage() {
 	const posts = await getAllPublished();
