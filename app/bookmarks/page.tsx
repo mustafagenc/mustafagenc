@@ -1,7 +1,7 @@
 import GoogleAnalytics from '@/components/analytics';
 import BookmarkLayout from '@/components/bookmark-layout';
-import bookmarkGroupByWeekNumber from '@/helpers/bookmarkGroupByWeekNumber';
 import Raindrop from '@/helpers/raindrop';
+import { bookmarkGroupByWeekNumber } from '@/helpers/utils';
 import { ILink } from '@/types/index';
 import { format, startOfWeek } from 'date-fns';
 import { tr } from 'date-fns/locale';

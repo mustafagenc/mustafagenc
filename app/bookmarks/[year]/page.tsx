@@ -1,7 +1,7 @@
 import GoogleAnalytics from '@/components/analytics';
 import BookmarkLayout from '@/components/bookmark-layout';
-import bookmarkGroupByWeekNumber from '@/helpers/bookmarkGroupByWeekNumber';
 import Raindrop from '@/helpers/raindrop';
+import { arrayOfYears, bookmarkGroupByWeekNumber } from '@/helpers/utils';
 import { ILink } from '@/types/index';
 import { addYears, format, startOfYear } from 'date-fns';
 import { notFound } from 'next/navigation';
@@ -9,12 +9,12 @@ import { notFound } from 'next/navigation';
 export const revalidate = 120;
 
 export async function generateStaticParams() {
-	return ['2021', '2022', '2023'].map((year) => ({
+	return arrayOfYears().map((year) => ({
 		year: year.toString()
 	}));
 }
 
-async function fetchData(params) {
+async function fetchData(params: { year: string | number | Date }) {
 	const dateStartOfYear = startOfYear(new Date(params.year));
 	const dateEndOfYear = addYears(dateStartOfYear, 1);
 

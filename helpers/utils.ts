@@ -12,4 +12,15 @@ const bookmarkGroupByWeekNumber = (data: ILink[]) => {
 	});
 };
 
-export default bookmarkGroupByWeekNumber;
+const arrayOfYears = () => {
+	var max = new Date().getFullYear();
+	var min = 2020;
+	var years = [];
+
+	for (var i = min; i <= max; i++) {
+		years.push(i);
+	}
+	return years;
+};
+
+export { bookmarkGroupByWeekNumber, arrayOfYears };
