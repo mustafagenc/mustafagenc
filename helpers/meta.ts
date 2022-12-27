@@ -10,6 +10,8 @@ export const META = {
 		unsplash: 'https://unsplash.com/@mustafagenc',
 		instagram: 'https://instagram.com/mustafagenc',
 		twitter: 'https://twitter.com/mustafagenc',
+		facebook: 'https://facebook.com/mustafagencx',
+		youtube: 'https://youtube.com/@mustafagenc',
 		github: 'https://github.com/mustafagenc'
 	}
 };
