@@ -4,6 +4,8 @@ import NextImage from 'next/image';
 import { useState } from 'react';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 
+export const revalidate = 120;
+
 export default function IzmirPhotos({ data }: { data: IIzmirPhotos[] }) {
 	const [current, setCurrent] = useState(0);
 	const length = data.length;

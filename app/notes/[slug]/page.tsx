@@ -6,17 +6,20 @@ import SubTitle from '@/components/subtitle';
 import Title from '@/components/title';
 import { getSinglePost } from '@/helpers/notion';
 import NextLink from 'next/link';
-import { notFound } from 'next/navigation';
+import { redirect } from 'next/navigation';
 import { Suspense } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+
+export const revalidate = 30;
+export const dynamicParams = false;
 
 export default async function NotePage({ params }) {
 	const { slug } = params;
 	const post = await getSinglePost(slug);
 
 	if (!post) {
-		notFound();
+		redirect('/notes');
 	}
 
 	return (

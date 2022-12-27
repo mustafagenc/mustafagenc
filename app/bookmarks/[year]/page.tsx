@@ -6,7 +6,7 @@ import { ILink } from '@/types/index';
 import { addYears, format, startOfYear } from 'date-fns';
 import { notFound } from 'next/navigation';
 
-export const revalidate = 7200; // 60*60*2
+export const revalidate = 120;
 
 export async function generateStaticParams() {
 	return ['2021', '2022', '2023'].map((year) => ({

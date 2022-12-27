@@ -7,7 +7,7 @@ import { format, startOfWeek } from 'date-fns';
 import { tr } from 'date-fns/locale';
 import { Suspense } from 'react';
 
-export const revalidate = 7200; // 60*60*2
+export const revalidate = 120;
 
 async function fetchData() {
 	const dateStartOfWeek = startOfWeek(new Date(), { weekStartsOn: 1, locale: tr });

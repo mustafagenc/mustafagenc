@@ -4,6 +4,8 @@ import Title from '@/components/title';
 import { getAllPublished } from '@/helpers/notion';
 import NextLink from 'next/link';
 
+export const revalidate = 60
+
 export default async function NotesPage() {
 	const posts = await getAllPublished();
 

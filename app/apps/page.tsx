@@ -4,6 +4,8 @@ import Container from '@/components/container';
 import Title from '@/components/title';
 import { getApps } from '@/helpers/airtable';
 
+export const revalidate = 120;
+
 export default async function AppsPage() {
 	const apps = await getApps();
 	return (
