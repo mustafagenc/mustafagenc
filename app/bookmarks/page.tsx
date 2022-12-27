@@ -1,3 +1,4 @@
+import GoogleAnalytics from '@/components/analytics';
 import BookmarkLayout from '@/components/bookmark-layout';
 import bookmarkGroupByWeekNumber from '@/helpers/bookmarkGroupByWeekNumber';
 import Raindrop from '@/helpers/raindrop';
@@ -33,6 +34,7 @@ export default async function Bookmark() {
 	return (
 		<Suspense fallback={<div>Loading...</div>}>
 			<BookmarkLayout data={data} year={year} onlyThisWeek />
+			<GoogleAnalytics pageTitle="Boomarks" />
 		</Suspense>
 	);
 }

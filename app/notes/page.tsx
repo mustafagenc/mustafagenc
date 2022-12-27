@@ -1,3 +1,4 @@
+import GoogleAnalytics from '@/components/analytics';
 import Container from '@/components/container';
 import Title from '@/components/title';
 import { getAllPublished } from '@/helpers/notion';
@@ -40,6 +41,7 @@ export default async function NotesPage() {
 					})}
 				</div>
 			</Container>
+			<GoogleAnalytics pageTitle="Notes" />
 		</>
 	);
 }

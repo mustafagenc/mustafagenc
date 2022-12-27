@@ -1,3 +1,4 @@
+import GoogleAnalytics from '@/components/analytics';
 import Container from '@/components/container';
 import IzmirPhotos from '@/components/izmir';
 import { StyleLink } from '@/components/link';
@@ -5,6 +6,7 @@ import Social from '@/components/social';
 import SubTitle from '@/components/subtitle';
 import Title from '@/components/title';
 import { getIzmirPhotos } from '@/helpers/airtable';
+import { META } from '@/helpers/meta';
 import NextImage from 'next/image';
 
 export default async function Home() {
@@ -53,6 +55,7 @@ export default async function Home() {
 				<StyleLink href="https://github.com/mustafagenc/mustafagenc">Github</StyleLink> üzerinden
 				ulaşabilirsiniz.
 			</div>
+			<GoogleAnalytics pageTitle={META.title} />
 		</Container>
 	);
 }

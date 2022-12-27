@@ -1,4 +1,4 @@
-import { META } from '@/data/meta';
+import { META } from '@/helpers/meta';
 
 export default function Head() {
 	const meta = {

@@ -1,3 +1,4 @@
+import GoogleAnalytics from '@/components/analytics';
 import Apps from '@/components/apps';
 import Container from '@/components/container';
 import Title from '@/components/title';
@@ -9,6 +10,7 @@ export default async function AppsPage() {
 		<Container>
 			<Title>Kullandığım uygulamaların listesi.</Title>
 			{Apps != null ? <Apps data={apps} /> : 'Yükleniyor...'}
+			<GoogleAnalytics pageTitle="Apps" />
 		</Container>
 	);
 }

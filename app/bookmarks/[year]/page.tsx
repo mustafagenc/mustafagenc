@@ -1,3 +1,4 @@
+import GoogleAnalytics from '@/components/analytics';
 import BookmarkLayout from '@/components/bookmark-layout';
 import bookmarkGroupByWeekNumber from '@/helpers/bookmarkGroupByWeekNumber';
 import Raindrop from '@/helpers/raindrop';
@@ -42,5 +43,10 @@ export default async function BookmarkByYear({ params }) {
 		notFound();
 	}
 
-	return <BookmarkLayout data={data} year={year} />;
+	return (
+		<>
+			<BookmarkLayout data={data} year={year} />
+			<GoogleAnalytics pageTitle={'Bookmark - ' + year} />
+		</>
+	);
 }

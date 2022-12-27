@@ -1,3 +1,4 @@
+import GoogleAnalytics from '@/components/analytics';
 import ClapsButton from '@/components/claps';
 import Container from '@/components/container';
 import { StyleLink } from '@/components/link';
@@ -59,6 +60,7 @@ export default async function NotePage({ params }) {
 					</div>
 				</article>
 			</Container>
+			<GoogleAnalytics pageTitle={'Note - ' + post.title} />
 		</Suspense>
 	);
 }

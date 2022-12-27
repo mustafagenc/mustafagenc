@@ -7,9 +7,7 @@ import Navigation from '@/components/nav';
 import { Inconsolata } from '@next/font/google';
 import mailgo from 'mailgo';
 
-import GoogleAnalytics from '@/components/analytics';
 import { useEffect } from 'react';
-import AnalyticsWrapper from './analytics';
 
 const mailgoConfig = {
 	dark: true
@@ -34,8 +32,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 					<main className="mt-10 flex-grow sm:mt-20">{children}</main>
 					<Footer />
 				</div>
-				<AnalyticsWrapper />
-				<GoogleAnalytics />
 			</body>
 		</html>
 	);

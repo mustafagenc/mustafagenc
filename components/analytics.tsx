@@ -1,21 +1,40 @@
-import Script from 'next/script';
+'use client';
 
-function GoogleAnalytics() {
+import * as gtag from '@/helpers/gtag';
+import { usePathname, useSearchParams } from 'next/navigation';
+import Script from 'next/script';
+import { useEffect } from 'react';
+
+function GoogleAnalytics({ pageTitle }) {
+	const pathname = usePathname();
+	const searchParams = useSearchParams();
+
+	useEffect(() => {
+		if (location.host !== 'localhost') {
+			gtag.pageview(pageTitle, pathname + searchParams.toString());
+		}
+	}, [pathname, searchParams, pageTitle]);
+
+	if (!process.env.NEXT_PUBLIC_GA_TRACKING_ID) {
+		return null;
+	}
+
 	return (
-		<div className="container">
+		<>
+			{/* Global Site Tag (gtag.js) - Google Analytics */}
 			<Script
-				src={`https://www.googletagmanager.com/gtag/js?id=G-6DQQTR4FKV`}
+				defer
+				src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_TRACKING_ID}`}
 				strategy="afterInteractive"
 			/>
-			<Script id="google-analytics" strategy="afterInteractive">
-				{`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-6DQQTR4FKV');
-                `}
+			<Script id="ga" defer strategy="afterInteractive">
+				{`window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', '${process.env.NEXT_PUBLIC_GA_TRACKING_ID}', { page_path: window.location.pathname });
+			`}
 			</Script>
-		</div>
+		</>
 	);
 }
 
