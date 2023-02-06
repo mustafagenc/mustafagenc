@@ -10,7 +10,7 @@
 src="https://img.shields.io/twitter/follow/mustafagenc?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917"
 /></a>
 
-[![](https://visitcount.itsvg.in/api?id=mustafagenc&icon=2&color=1)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=mustafagenc&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
 
 <details>
   <summary>More...</summary>
