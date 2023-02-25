@@ -1,4 +1,5 @@
 'use client';
+
 import '@/styles/globals.css';
 import '@upstash/claps/style.css';
 

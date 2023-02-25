@@ -10,7 +10,7 @@ import { Suspense } from 'react';
 export const revalidate = 120;
 
 async function fetchData() {
-	const dateStartOfWeek = startOfWeek(new Date(), { weekStartsOn: 1, locale: tr });
+	const dateStartOfWeek = startOfWeek(new Date(), { locale: tr });
 	const date = format(dateStartOfWeek, 'yyyy-MM-dd', { locale: tr });
 
 	const raindrop = new Raindrop();
