@@ -15,5 +15,5 @@ src="https://img.shields.io/twitter/follow/mustafagenc?logo=twitter&style=for-th
 <details>
   <summary>More...</summary>
  <img src="https://github-readme-stats.vercel.app/api?username=mustafagenc&show_icons=true&count_private=true&theme=dark" />
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mustafagenc&layout=compact&theme=dark" />
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mustafagenc&layout=compact&theme=dark&count-private=true" />
 </details>
