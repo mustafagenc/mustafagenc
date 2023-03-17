@@ -11,9 +11,7 @@
 
 [![](https://visitcount.itsvg.in/api?id=mustafagenc&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
 
-<details>
-  <summary>📊 GitHub Stats</summary>
+
 ![](https://github-readme-stats.vercel.app/api?username=mustafagenc&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=mustafagenc&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafagenc&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-</details>
