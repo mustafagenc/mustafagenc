@@ -11,7 +11,26 @@
 
 [![](https://visitcount.itsvg.in/api?id=mustafagenc&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
 
+<p align="center">
+    <a href="https://github.com/mustafagenc#gh-light-mode-only">
+        <img height="210em" src="https://github-readme-stats.vercel.app/api?username=mustafagenc&count_private=true&show_icons=true&include_all_commits=true&custom_title=erdkse%27s%20github%20stats&hide_border=true&line_height=28&theme=graywhite" align = "center"/>
+    </a>
+    <a href="https://github.com/mustafagenc#gh-light-mode-only">
+        <img height="210em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mustafagenc&count_private=true&show_icons=true&include_all_commits=true&layout=compact&hide_border=true&langs_count=10&theme=graywhite" align = "center"/>
+    </a>
+    <a href="https://github.com/mustafagenc#gh-dark-mode-only">
+        <img height="210em" src="https://github-readme-stats.vercel.app/api?username=mustafagenc&count_private=true&show_icons=true&include_all_commits=true&custom_title=erdkse%27s%20github%20stats&hide_border=true&line_height=28&theme=dark" align = "center"/>
+    </a>
+    <a href="https://github.com/mustafagenc#gh-dark-mode-only">
+        <img height="210em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mustafagenc&count_private=true&show_icons=true&include_all_commits=true&layout=compact&hide_border=true&langs_count=10&theme=dark" align = "center"/>
+    </a>
+</p>
 
-![](https://github-readme-stats.vercel.app/api?username=mustafagenc&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=mustafagenc&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafagenc&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<p align="center">
+    <a href="https://github.com/mustafagenc#gh-light-mode-only">
+        <img height="210em" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mustafagenc&theme=default" alt="erdkse" />
+    </a>
+    <a href="https://github.com/mustafagenc#gh-dark-mode-only">
+        <img height="210em" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mustafagenc&theme=dark" alt="erdkse" />
+    </a>
+</p>
