@@ -10,7 +10,7 @@ export const revalidate = 120;
 
 export async function generateStaticParams() {
 	return arrayOfYears().map((year) => ({
-		year: year
+		year: year!.toString()
 	}));
 }
 
