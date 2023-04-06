@@ -20,7 +20,7 @@ const MENU = {
 
 export default function Navigation({ ...props }) {
 	const pathname = usePathname();
-	const clearSlash = pathname.split('/')[1];
+	const clearSlash = pathname!.split('/')[1];
 	const path = clearSlash ? `/${clearSlash}` : '/';
 
 	return (

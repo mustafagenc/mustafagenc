@@ -11,7 +11,7 @@ function GoogleAnalytics({ pageTitle }) {
 
 	useEffect(() => {
 		if (location.host !== 'localhost') {
-			gtag.pageview(pageTitle, pathname + searchParams.toString());
+			gtag.pageview(pageTitle, pathname! + searchParams!);
 		}
 	}, [pathname, searchParams, pageTitle]);
 

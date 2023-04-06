@@ -4,10 +4,10 @@ import Airtable from 'airtable';
 
 const base = new Airtable({
 	apiKey: process.env.AIRTABLE_API_KEY
-}).base(process.env.AIRTABLE_BASE_ID);
+}).base(process.env.AIRTABLE_BASE_ID!);
 
-const app_table = base(process.env.AIRTABLE_APP_TABLE_NAME);
-const izmir_table = base(process.env.AIRTABLE_IZMIR_TABLE_NAME);
+const app_table = base(process.env.AIRTABLE_APP_TABLE_NAME!);
+const izmir_table = base(process.env.AIRTABLE_IZMIR_TABLE_NAME!);
 
 const getMinifiedRecords = (records: any) => {
 	return records.map((record: any) => minifyRecord(record));

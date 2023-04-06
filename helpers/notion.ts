@@ -11,7 +11,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 
 export const getAllPublished = async (): Promise<INotes[]> => {
 	const posts = await notion.databases.query({
-		database_id: process.env.NOTION_DATABASE_ID,
+		database_id: process.env.NOTION_DATABASE_ID!,
 		filter: {
 			property: 'status',
 			checkbox: {
@@ -78,7 +78,7 @@ export const getToday = function (datestring: string | number | Date) {
 
 export const getSinglePost = async (slug: any): Promise<INote> => {
 	const response = await notion.databases.query({
-		database_id: process.env.NOTION_DATABASE_ID,
+		database_id: process.env.NOTION_DATABASE_ID!,
 		filter: {
 			property: 'slug',
 			formula: {

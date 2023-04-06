@@ -54,7 +54,7 @@ export default async function NotePage({ params }) {
 								ul: ({ node, ...props }) => (
 									<ul className="list-inside list-disc" {...props} />
 								),
-								a: ({ node, href, ...props }) => <StyleLink href={href} {...props} />
+								a: ({ node, href, ...props }) => <StyleLink href={href!} {...props} />
 							}}
 						/>
 					</div>

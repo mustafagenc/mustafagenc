@@ -5,7 +5,7 @@ import IconSpotify from './icons/spotify';
 import { StyleLink } from './link';
 
 export function Spotify() {
-	const [data, setData] = useState(null);
+	const [data, setData] = useState(null as any);
 
 	const fetchData = async () => {
 		const res = await fetch('/api/spotify');

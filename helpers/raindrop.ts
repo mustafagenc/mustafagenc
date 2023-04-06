@@ -10,11 +10,11 @@ type Result = {
 };
 
 export default class Raindrop {
-	private readonly token: string = process.env.RAINDROP_ACCESS_TOKEN;
+	private readonly token: string = process.env.RAINDROP_ACCESS_TOKEN!;
 	private url = 'https://api.raindrop.io';
 
 	constructor(initData?: InitData) {
-		this.token = initData?.token;
+		this.token = initData?.token!;
 	}
 
 	async fetch({ url, options = {} }: { url: URL; options?: RequestInit }): Promise<Response> {
@@ -57,14 +57,14 @@ export default class Raindrop {
 		perPage?: number;
 		page?: number;
 		sort?: '-created' | 'created' | '-sort' | '-title' | 'title' | '-domain' | 'domain';
-		search?: string;
+		search?: string | undefined;
 		allData?: boolean;
 	}): Promise<ILink[]> {
 		let url = new URL(`/rest/v1/raindrops/${id}`, this.url);
 		this.mergeParams(url, {
 			perpage: perPage?.toString(),
 			page: page?.toString(),
-			search,
+			search: search!,
 			sort
 		});
 
