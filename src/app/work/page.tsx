@@ -17,15 +17,15 @@ export default function Page() {
 
         <div className='prose max-w-full'>
           <p className='font-medium text-pretty text-zinc-800 dark:text-zinc-300'>
-            Since 2003, I've been immersed in the world of software development,
-            constantly seeking to expand my knowledge and skills through various
-            projects and technologies. This page details my professional
-            journey, including my work experiences, education, certifications,
-            personal projects, and technical skills, all presented in
-            chronological order. Having worked on both corporate and freelance
-            projects, I possess a broad range of technical expertise. My passion
-            for continuous learning and exploring new technologies is a
-            cornerstone of my career.
+            Since 2003, I&apos;ve been immersed in the world of software
+            development, constantly seeking to expand my knowledge and skills
+            through various projects and technologies. This page details my
+            professional journey, including my work experiences, education,
+            certifications, personal projects, and technical skills, all
+            presented in chronological order. Having worked on both corporate
+            and freelance projects, I possess a broad range of technical
+            expertise. My passion for continuous learning and exploring new
+            technologies is a cornerstone of my career.
           </p>
         </div>
 
@@ -62,8 +62,8 @@ export default function Page() {
               <span>
                 This project aims to optimize critical business processes such
                 as equipment tracking, maintenance management, cost analysis,
-                and operational efficiency, thereby increasing the company's
-                project effectiveness.
+                and operational efficiency, thereby increasing the
+                company&apos;s project effectiveness.
               </span>
             </div>
           </article>

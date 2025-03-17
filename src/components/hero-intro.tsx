@@ -1,7 +1,5 @@
 import Image from 'next/image'
-import { AlertIcon, BookIcon, ChartIcon, UsersGroup } from '@/components/icons'
 import { CustomHoverCard } from '@/components/custom-hover-card'
-import { EXPERIENCE_YEARS } from '@/lib/constants'
 
 export const HeroIntro = () => {
   return (
@@ -18,9 +16,13 @@ export const HeroIntro = () => {
             Full-Stack Developer.
           </p>
 
-<div className='my-2 leading-7 font-medium text-pretty text-zinc-800 dark:text-zinc-300'>
-  I am an experienced software developer who has been working in the field since 2003, with experience in both corporate and freelance projects. I specialize in system architecture and developing comprehensive software solutions. I am currently working full-time at 
-              <CustomHoverCard
+          <div className='my-2 leading-7 font-medium text-pretty text-zinc-800 dark:text-zinc-300'>
+            I am an experienced software developer who has been working in the
+            field since 2003, with experience in both corporate and freelance
+            projects. I specialize in system architecture and developing
+            comprehensive software solutions. I am currently working full-time
+            at
+            <CustomHoverCard
               triggerText='ENKA İnşaat ve Sanayi A.Ş.'
               title='ENKA İnşaat ve Sanayi A.Ş.'
               description="I lead the development of the EGEM project, which provides management of large-scale equipment fleets. This project aims to optimize critical business processes such as equipment tracking, maintenance management, cost analysis, and operational efficiency, thereby increasing the company's project effectiveness."
@@ -28,9 +30,9 @@ export const HeroIntro = () => {
               avatarSrc='/images/enka.png'
               avatarFallback='FCC'
             />
-            
-   and continue to enrich my experience by working on different projects. I also enjoy contributing to software communities.
-</div>
+            and continue to enrich my experience by working on different
+            projects. I also enjoy contributing to software communities.
+          </div>
         </div>
 
         {/* Desktop Profile Image */}
@@ -48,11 +50,18 @@ export const HeroIntro = () => {
       </div>
 
       <p className='mt-3 max-w-full leading-7 font-medium text-pretty text-zinc-800 dark:text-zinc-300'>
-With over 20 years of experience, I specialize in languages like <strong>C#</strong>, <strong>Asp.NET</strong>, <strong>TypeScript</strong>, and <strong>PHP</strong>, and databases such as <strong>MSSQL</strong> and <strong>MySQL</strong>. I also have experience with web development technologies and frameworks.
+        With over 20 years of experience, I specialize in languages like{' '}
+        <strong>C#</strong>, <strong>Asp.NET</strong>,{' '}
+        <strong>TypeScript</strong>, and <strong>PHP</strong>, and databases
+        such as <strong>MSSQL</strong> and <strong>MySQL</strong>. I also have
+        experience with web development technologies and frameworks.
       </p>
 
       <p className='mt-3 max-w-full leading-7 font-medium text-pretty text-zinc-800 dark:text-zinc-300'>
-        I enjoy building side projects in my free time that help me automate a lot of my stuffs. I love writing about my projects, and exploring new technologies that enhance my skills and understanding of software development.{' '}
+        I enjoy building side projects in my free time that help me automate a
+        lot of my stuffs. I love writing about my projects, and exploring new
+        technologies that enhance my skills and understanding of software
+        development.{' '}
       </p>
     </section>
   )
