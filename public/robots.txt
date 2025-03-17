@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mustafagenc.info
+
+# Sitemaps
+Sitemap: https://mustafagenc.info/sitemap.xml

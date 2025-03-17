@@ -8,7 +8,7 @@
 - ✉️ You can contact me at [eposta@mustafagenc.info](mailto:eposta@mustafagenc.info)
 - 🚀 I'm currently working on [ENKA Systems](https://www.enkasystems.com/solutions/egem-global-equipment-management-system/)
 
-## Connect with me:
+## Connect with me
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mustafagenc) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mustafagenc)
 
