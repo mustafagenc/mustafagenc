@@ -1,10 +1,15 @@
 # Hi 👋, I'm Mustafa
 
-## Software Developer
+[![Profile Views](https://komarev.com/ghpvc/?username=mustafagenc&label=Profile%20views&color=1c87ca&style=flat)](https://mustafagenc.com)
+
+## About Me
 
 -   🌍 I'm based in İstanbul
 -   ✉️ You can contact me at [eposta@mustafagenc.info](mailto:eposta@mustafagenc.info)
 -   🚀 I'm currently working on [ENKA Systems](https://www.enkasystems.com/solutions/egem-global-equipment-management-system/)
+
+## Connect with me:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mustafagenc) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mustafagenc)
 
 
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mustafagenc)
