@@ -9,28 +9,8 @@
 
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mustafagenc)
 
-[![](https://visitcount.itsvg.in/api?id=mustafagenc&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
+### GitHub Stats
+[![GitHub Streak](https://streak-stats.demolab.com?user=mustafagenc&theme=dark&hide_border=true&border_radius=20)](https://git.io/streak-stats)
+![My Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mustafagenc&layout=compact&theme=radical&langs_count=6&hide_border=true&border_radius=20)
 
-<p align="center">
-    <a href="https://github.com/mustafagenc#gh-light-mode-only">
-        <img height="200em" src="https://github-readme-stats.vercel.app/api?username=mustafagenc&count_private=true&show_icons=true&include_all_commits=true&custom_title=mustafagenc%27s%20github%20stats&hide_border=true&line_height=28&theme=graywhite" align = "center"/>
-    </a>
-    <a href="https://github.com/mustafagenc#gh-light-mode-only">
-        <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mustafagenc&count_private=true&show_icons=true&include_all_commits=true&layout=compact&hide_border=true&langs_count=10&theme=graywhite" align = "center"/>
-    </a>
-    <a href="https://github.com/mustafagenc#gh-dark-mode-only">
-        <img height="200em" src="https://github-readme-stats.vercel.app/api?username=mustafagenc&count_private=true&show_icons=true&include_all_commits=true&custom_title=mustafagenc%27s%20github%20stats&hide_border=true&line_height=28&theme=dark" align = "center"/>
-    </a>
-    <a href="https://github.com/mustafagenc#gh-dark-mode-only">
-        <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mustafagenc&count_private=true&show_icons=true&include_all_commits=true&layout=compact&hide_border=true&langs_count=10&theme=dark" align = "center"/>
-    </a>
-</p>
-
-<p align="center">
-    <a href="https://github.com/mustafagenc#gh-light-mode-only">
-        <img height="200em" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mustafagenc&theme=default" alt="mustafagenc" />
-    </a>
-    <a href="https://github.com/mustafagenc#gh-dark-mode-only">
-        <img height="200em" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mustafagenc&theme=dark" alt="mustafagenc" />
-    </a>
-</p>
+[![Mustafa's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=mustafagenc&theme=github-compact&hide_border=true&radius=16&bg_color=151515&custom_title=My%20Activity%20Graph%20^_^&title_color=26a641)](https://github.com/ashutosh00710/github-readme-activity-graph)
