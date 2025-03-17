@@ -1,19 +1,22 @@
 # Hi 👋, I'm Mustafa
 
-## Software Developer
+[![Profile Views](https://komarev.com/ghpvc/?username=mustafagenc&label=Profile%20views&color=1c87ca&style=flat)](https://mustafagenc.com)
 
--   🌍 I'm based in İstanbul
--   ✉️ You can contact me at [ben@mstf.dev](mailto:ben@mstf.dev)
--   🚀 I'm currently working on [ENKA Systems](https://www.enkasystems.com/solutions/egem-global-equipment-management-system/)
+## About Me
 
-<a href="https://www.twitter.com/mustafagenc" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/twitter/follow/mustafagenc?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917"
-/></a>
+- 🌍 I'm based in İstanbul
+- ✉️ You can contact me at [eposta@mustafagenc.info](mailto:eposta@mustafagenc.info)
+- 🚀 I'm currently working on [ENKA Systems](https://www.enkasystems.com/solutions/egem-global-equipment-management-system/)
 
-[![](https://visitcount.itsvg.in/api?id=mustafagenc&icon=2&color=1)](https://visitcount.itsvg.in)
+## Connect with me:
 
-<details>
-  <summary>More...</summary>
- <img src="https://github-readme-stats.vercel.app/api?username=mustafagenc&show_icons=true&count_private=true&theme=dark" />
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mustafagenc&layout=compact&theme=dark" />
-</details>
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mustafagenc) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mustafagenc)
+
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mustafagenc)
+
+### GitHub Stats
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=mustafagenc&theme=blue-green&hide_border=true&short_numbers=true&mode=weekly&exclude_days=Mon)](https://git.io/streak-stats)
+![My Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mustafagenc&layout=compact&theme=radical&langs_count=6&hide_border=true&border_radius=20)
+
+[![Mustafa's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=mustafagenc&theme=github-compact&hide_border=true&radius=16&bg_color=151515&custom_title=My%20Activity%20Graph%20^_^&title_color=26a641)](https://github.com/ashutosh00710/github-readme-activity-graph)
