@@ -1,31 +1,38 @@
 ---
-title: "multi-sms-provider-for-net"
-description: "Multi Sms Providers for .NET is a C# package designed to simplify the process of integrating multiple SMS service providers into your .NET application."
-clone_url: "https://github.com/mustafagenc/multisms.git"
-language: "C#"
-homepage: "https://mustafagenc.github.io/multisms/"
+title: 'Multi-Sms-Provider-for-Net'
+description:
+  'Multi Sms Providers for .NET is a C# package designed to simplify the process
+  of integrating multiple SMS service providers into your .NET application.'
+clone_url: 'https://github.com/mustafagenc/multisms.git'
+language: 'C#'
+homepage: 'https://mustafagenc.github.io/multisms/'
 topics:
-    - "sms"
-    - "sms-provider"
-    - "sms-gateway"
-    - "ileti-merkezi"
-    - "netgsm"
-    - "jetsms"
-    - "twilio"
-    - "mutlucell"
-    - "mas-gsm"
-    - "sms-vitrini"
-    - "vodafone"
+  - 'full-stack'
+  - 'hacktoberfest'
+  - 'hacktoberfest-accepted'
+  - 'nextjs'
+  - 'postgresql'
+  - 'prisma'
+  - 'social-network'
+  - 'typescript'
+  - 'upstash-redis'
+  - 'showcase'
 created_at: '2023-01-01T01:40:10Z'
 updated_at: '2023-05-06T01:36:23Z'
 ---
 
 # Multi Sms Provider for .NET
 
-[![Publish](https://github.com/mustafagenc/multisms/actions/workflows/publish.yml/badge.svg)](https://github.com/mustafagenc/multisms/actions/workflows/publish.yml) [![Version](https://img.shields.io/nuget/v/MultiSms?label=Nuget)](https://www.nuget.org/packages/MultiSms) [![Download](https://img.shields.io/nuget/dt/MultiSms?label=Downloads&color=green&logo=nuget)](https://www.nuget.org/packages/MultiSms) [![License](https://img.shields.io/github/license/mustafagenc/multisms?label=License)](https://github.com/mustafagenc/multisms/blob/main/LICENSE) [![CodeFactor](https://www.codefactor.io/repository/github/mustafagenc/multisms/badge)](https://www.codefactor.io/repository/github/mustafagenc/multisms)
+[![Publish](https://github.com/mustafagenc/multisms/actions/workflows/publish.yml/badge.svg)](https://github.com/mustafagenc/multisms/actions/workflows/publish.yml)
+[![Version](https://img.shields.io/nuget/v/MultiSms?label=Nuget)](https://www.nuget.org/packages/MultiSms)
+[![Download](https://img.shields.io/nuget/dt/MultiSms?label=Downloads&color=green&logo=nuget)](https://www.nuget.org/packages/MultiSms)
+[![License](https://img.shields.io/github/license/mustafagenc/multisms?label=License)](https://github.com/mustafagenc/multisms/blob/main/LICENSE)
+[![CodeFactor](https://www.codefactor.io/repository/github/mustafagenc/multisms/badge)](https://www.codefactor.io/repository/github/mustafagenc/multisms)
 
-Multi Sms Providers for .NET is a C# package designed to simplify the process of integrating multiple SMS service providers into your .NET application.
-The package is easy to use and includes support for various SMS providers such as Twilio, NetGSM, İleti Merkezi, JetSms, Mutlucell, Mas GSM and SmsVitrini.
+Multi Sms Providers for .NET is a C# package designed to simplify the process of
+integrating multiple SMS service providers into your .NET application. The
+package is easy to use and includes support for various SMS providers such as
+Twilio, NetGSM, İleti Merkezi, JetSms, Mutlucell, Mas GSM and SmsVitrini.
 
 ## 📞 Providers
 
@@ -44,11 +51,14 @@ The package is easy to use and includes support for various SMS providers such a
 - [İleti Yönetim Sistemi](https://iys.org.tr)
 
 ## Install
-Install ```NuGet\Install-Package MultiSms``` package using [NuGet](https://www.nuget.org/packages/MultiSms) to get started.
+
+Install `NuGet\Install-Package MultiSms` package using
+[NuGet](https://www.nuget.org/packages/MultiSms) to get started.
 
 ## Usage
 
 ### Sms Service
+
 ```csharp
   var _smsFactory = MultiSmsServiceFactory.Instance.UseOptions(options =>
   {
@@ -67,6 +77,7 @@ Install ```NuGet\Install-Package MultiSms``` package using [NuGet](https://www.n
 ```
 
 ### Dependency Injection
+
 ```csharp
 builder.Services.AddMultiSms(options =>
 {

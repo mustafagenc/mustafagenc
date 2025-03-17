@@ -109,7 +109,10 @@ export async function generateMetadata({
   }
 }
 
-export default async function Page({ params: { slug } }: Props) {
+type Params = Promise<{ slug: string }>
+
+export default async function Page({ params }: { params: Params }) {
+  const { slug } = await params
   try {
     // NOTE: I am fetching the postId by slug but not the post by id here, because
     // I don't want to pollute the URL by including the postId anywhere like in the path or

@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @config "../../tailwind.config.ts";
 
 @tailwind base;
@@ -91,7 +91,7 @@
   }
 
   .title {
-    @apply mb-10 text-balance text-3xl font-bold text-foreground underline decoration-border/75 decoration-2 underline-offset-8;
+    @apply text-foreground decoration-border/75 mb-10 text-3xl font-bold text-balance underline decoration-2 underline-offset-8;
   }
 
   span.divider {
@@ -99,7 +99,7 @@
   }
 
   .prose pre {
-    @apply overflow-x-auto rounded-lg bg-accent px-5 py-4 text-sm;
+    @apply bg-accent overflow-x-auto rounded-lg px-5 py-4 text-sm;
   }
   .prose code {
     @apply rounded-lg px-1 py-0.5;
