@@ -90,7 +90,7 @@ export default function Page({
         <AlertDescription className='text-sm text-muted-foreground'>
           It does not list all of my projects. To view them all, check out my{' '}
           <a
-            href='https://github.com/shricodev'
+            href='https://github.com/mustafagenc'
             target='_blank'
             rel='noreferrer noopener'
             className='font-semibold text-muted-foreground underline underline-offset-4 hover:text-foreground hover:transition'

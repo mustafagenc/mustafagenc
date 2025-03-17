@@ -90,7 +90,7 @@ export default async function Page({
         <AlertDescription className='text-sm text-muted-foreground'>
           Check out these posts on{' '}
           <a
-            href='https://dev.to/shricodev'
+            href='https://dev.to/mustafagenc'
             target='_blank'
             rel='noreferrer noopener'
             className='font-semibold text-muted-foreground underline underline-offset-4 hover:text-foreground hover:transition'
@@ -99,7 +99,7 @@ export default async function Page({
           </a>{' '}
           and{' '}
           <a
-            href='https://shricodev.hashnode.dev'
+            href='https://mustafagenc.hashnode.dev'
             target='_blank'
             rel='noreferrer noopener'
             className='font-semibold text-muted-foreground underline underline-offset-4 hover:text-foreground hover:transition'

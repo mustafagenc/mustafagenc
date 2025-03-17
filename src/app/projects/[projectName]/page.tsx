@@ -116,7 +116,7 @@ export default function Page({ params: { projectName } }: Props) {
               The README content here can be outdated. To read the latest
               version, visit my{' '}
               <a
-                href='https://github.com/shricodev'
+                href='https://github.com/mustafagenc'
                 target='_blank'
                 rel='noreferrer noopener'
                 className='text-muted-foreground hover:text-foreground font-semibold underline underline-offset-4'

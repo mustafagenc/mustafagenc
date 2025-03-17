@@ -10,7 +10,7 @@ export async function GET() {
       'Stay updated with the latest selected public GitHub repositories and blog posts from Mustafa Genç.',
     site_url: new URL(BASE_URL).toString(),
     feed_url: new URL('/rss.xml', BASE_URL).toString(),
-    image_url: new URL('/images/shrijal-acharya.webp', BASE_URL).toString(),
+    image_url: new URL('/photos/mustafa-genc.jpg', BASE_URL).toString(),
     author: `${PUBLIC_MAIL} (Mustafa Genç)`,
     copyright: `${new Date().getFullYear()} Mustafa Genç. All rights reserved.`,
     // Expliicitely set the feed date to 'December 4, 2024' as this is the day when the feed is made public.

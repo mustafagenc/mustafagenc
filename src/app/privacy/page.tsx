@@ -21,9 +21,7 @@ export default function Page() {
       <div className='mb-5'>
         <h1 className='title'>Privacy Policy</h1>
         <p className='text-muted-foreground'>
-          I am committed to protecting your privacy and safeguarding the
-          information you share with me. This privacy policy explains how I
-          collect, use, and protect your personal data.
+  This Privacy Policy explains how I collect, use, and protect the personal information you provide through the contact form on my website.
         </p>
       </div>
 
@@ -31,25 +29,19 @@ export default function Page() {
         <div>
           <h2 className='text-xl font-bold'>Information I Collect</h2>
           <p className='text-muted-foreground'>
-            I may collect certain personal information that you provide,
-            including your name, email address, and any additional details
-            submitted through the forms.
+            When you fill out the contact form, I may collect your name, email address, and any other details you provide.
           </p>
         </div>
         <div>
           <h2 className='text-xl font-bold'>How I Use Your Information</h2>
           <p className='text-muted-foreground'>
-            The information collected is used to communicate with you. By
-            submitting a form, you consent to the use of your information as
-            outlined in this policy.
+            I use the information you submit to respond to your inquiries and communicate with you as necessary.
           </p>
         </div>
         <div>
           <h2 className='text-xl font-bold'>Data Sharing and Protection</h2>
           <p className='text-muted-foreground'>
-            I do not sell or rent your personal information to any third
-            parties. I employ security measures to protect your data from
-            unauthorized access or misuse.
+            I take reasonable measures to protect your personal data from unauthorized access, alteration, or disclosure. I utilize secure servers to store your data.
           </p>
         </div>
         <div>

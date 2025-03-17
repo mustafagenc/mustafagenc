@@ -17,7 +17,7 @@ function CustomLink({ projectName, ...props }: any) {
       <a
         {...props}
         target='_blank'
-        href={`https://github.com/shricodev/${projectName}/${href}`}
+        href={`https://github.com/mustafagenc/${projectName}/${href}`}
         className='underline underline-offset-4'
       />
     )

@@ -17,22 +17,22 @@ const socials = [
   },
   {
     name: 'GitHub',
-    href: 'https://github.com/shricodev',
+    href: 'https://github.com/mustafagenc',
     icon: GitHubIcon,
   },
   {
     name: 'DEV.to',
-    href: 'https://dev.to/shricodev',
+    href: 'https://dev.to/mustafagenc',
     icon: DevToIcon,
   },
   {
     name: 'Hashnode',
-    href: 'https://shricodev.hashnode.dev',
+    href: 'https://mustafagenc.hashnode.dev',
     icon: HashnodeIcon,
   },
   {
     name: 'X',
-    href: 'https://x.com/shricodev',
+    href: 'https://x.com/mustafagenc',
     icon: TwitterIcon,
   },
   {

@@ -202,7 +202,7 @@ export default async function Page({ params: { slug } }: Props) {
           <div className='hover:text-foreground flex items-center gap-1 hover:transition'>
             <ArrowUpRightIcon className='size-4' />
             <a
-              href='https://dev.to/shricodev'
+              href='https://dev.to/mustafagenc'
               target='_blank'
               rel='noreferrer noopener'
             >
@@ -213,7 +213,7 @@ export default async function Page({ params: { slug } }: Props) {
           <div className='hover:text-foreground flex items-center gap-1 hover:transition'>
             <ArrowUpRightIcon className='size-4' />
             <a
-              href='https://shricodev.hashnode.dev'
+              href='https://mustafagenc.hashnode.dev'
               target='_blank'
               rel='noreferrer noopener'
             >

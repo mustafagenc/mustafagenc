@@ -1,20 +1,13 @@
 import {
-  CodingNinjasIcon,
-  CourseraIcon,
   DevToIcon,
-  DiscordIcon,
-  GeeksForGeeksIcon,
   GitHubIcon,
-  GmailIcon,
   HashnodeIcon,
   InstagramIcon,
-  LeetCodeIcon,
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/icons'
 import { Social } from '@/components/social'
 import { InfoTooltip } from '@/components/info-tooltip'
-import { PUBLIC_MAIL } from '@/lib/constants'
 
 const socialCategories = [
   {
@@ -22,76 +15,36 @@ const socialCategories = [
     items: [
       {
         name: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/iamshrijal',
+        href: 'https://www.linkedin.com/in/mustafagenc',
         icon: LinkedInIcon,
       },
       {
         name: 'GitHub',
-        href: 'https://github.com/shricodev',
+        href: 'https://github.com/mustafagenc',
         icon: GitHubIcon,
       },
       {
         name: 'DEV.to',
-        href: 'https://dev.to/shricodev',
+        href: 'https://dev.to/mustafagenc',
         icon: DevToIcon,
       },
       {
         name: 'Hashnode',
-        href: 'https://shricodev.hashnode.dev',
+        href: 'https://mustafagenc.hashnode.dev',
         icon: HashnodeIcon,
       },
       {
         name: 'X',
-        href: 'https://x.com/shricodev',
+        href: 'https://x.com/mustafagenc',
         icon: TwitterIcon,
       },
       {
         name: 'Instagram',
-        href: 'https://instagram.com/itspiyush.ach',
+        href: 'https://instagram.com/mustafagenc',
         icon: InstagramIcon,
       },
     ],
-  },
-  {
-    name: 'Additional Platforms',
-    items: [
-      {
-        name: 'Discord',
-        href: 'https://discordapp.com/users/1082700727220183151',
-        icon: DiscordIcon,
-      },
-      {
-        name: 'Gmail',
-        href: `mailto:${PUBLIC_MAIL}`,
-        icon: GmailIcon,
-      },
-      {
-        name: 'Coursera',
-        href: 'https://www.coursera.org/user/6f7698d69fb4ee325093383f88d8d2ff',
-        icon: CourseraIcon,
-      },
-    ],
-  },
-  {
-    name: 'Coding Profiles',
-    items: [
-      {
-        name: 'LeetCode',
-        href: 'https://leetcode.com/shricodev',
-        icon: LeetCodeIcon,
-      },
-      {
-        name: 'GeeksForGeeks',
-        href: 'https://auth.geeksforgeeks.org/user/octopie23',
-        icon: GeeksForGeeksIcon,
-      },
-      {
-        name: 'CodingNinjas',
-        href: 'https://www.codingninjas.com/codestudio/profile/6d2f4a1b-5461-4e51-92fa-90f00f70f309',
-        icon: CodingNinjasIcon,
-      },
-    ],
-  },
+  }
 ]
 
 export const Socials = () => {

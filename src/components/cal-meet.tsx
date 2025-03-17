@@ -3,5 +3,5 @@
 import Cal from '@calcom/embed-react'
 
 export const CalMeet = () => {
-  return <Cal calLink='shrijal-acharya/30min' className='rounded-none' />
+  return <Cal calLink='mustafagenc/30min' className='rounded-none' />
 }

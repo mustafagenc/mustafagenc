@@ -22,7 +22,7 @@ class ProjectError extends Error {
   }
 }
 
-const projectsDirectory = path.resolve(process.cwd(), "content", "projects");
+const projectsDirectory = path.resolve(process.cwd(),"src", "content", "projects");
 
 function validateDirectory(dir: string) {
   try {

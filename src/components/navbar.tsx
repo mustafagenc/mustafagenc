@@ -38,7 +38,7 @@ export const Navbar = () => {
               href={homeLink}
               className={`${poppins.className} select-none flex-nowrap text-2xl font-bold uppercase`}
             >
-              shrijal.
+              MG.
             </Link>
           </div>
 
