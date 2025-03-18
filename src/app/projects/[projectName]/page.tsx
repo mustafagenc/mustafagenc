@@ -33,7 +33,9 @@ export async function generateStaticParams() {
   }
 }
 
-export function generateMetadata({ params: { projectName } }: Props): Metadata {
+export async function generateMetadata({
+  params: { projectName },
+}: Props): Promise<Metadata> {
   const DEFAULT_METADATA = {
     title: projectName,
     description: 'A project by Mustafa Genç showcasing work and skills.',

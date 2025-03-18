@@ -13,7 +13,7 @@ import { getBlogPostsCardMeta } from '@/lib/blogs'
 import { getProjectsMetadata } from '@/lib/projects'
 import type { Metadata } from 'next'
 
-export function generateMetadata(): Metadata {
+export async function generateMetadata(): Promise<Metadata> {
   const baseMetadata = {
     title: 'Mustafa Genç',
     description:

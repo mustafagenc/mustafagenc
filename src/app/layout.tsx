@@ -18,7 +18,7 @@ const geistMono = localFont({
   weight: '100 900',
 })
 
-export function generateMetadata(): Metadata {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: new URL(BASE_URL),
     title: {

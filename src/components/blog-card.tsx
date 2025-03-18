@@ -102,7 +102,7 @@ export const BlogCard = ({ blogWithMeta, searchParams }: BlogCardProps) => {
           </Link>
         )}
 
-        <CardFooter className='text-sm text-muted-foreground'>
+        <CardFooter className='text-muted-foreground text-sm'>
           <Link href='/contact' className='flex items-center'>
             <UserAvatar className='size-7 sm:mr-2' />
             {author ? (
