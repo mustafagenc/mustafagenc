@@ -12,7 +12,7 @@ import { InfoTooltip } from '@/components/info-tooltip'
 const socials = [
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/iamshrijal',
+    href: 'https://www.linkedin.com/in/mustafagenc',
     icon: LinkedInIcon,
   },
   {

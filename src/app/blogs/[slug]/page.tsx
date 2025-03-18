@@ -45,9 +45,9 @@ export async function generateMetadata({ params }: { params: Params }) {
   const { slug } = await params
 
   const DEFAULT_METADATA = {
-    title: 'Blog by Shrijal Acharya',
+    title: 'Blog by Mustafa Genç',
     description:
-      'Explore the blog by Shrijal Acharya, covering programming, development, and tech insights.',
+      'Explore the blog by Mustafa Genç, covering programming, development, and tech insights.',
   }
 
   try {
