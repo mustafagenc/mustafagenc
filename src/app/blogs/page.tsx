@@ -26,11 +26,10 @@ export const metadata: Metadata = {
     'Explore my collection of blog posts, where I share my ideas on coding, DevOps, cloud and more, powered by Hashnode Headless CMS.',
 }
 
-export default async function Page({
-  searchParams,
-}: {
-  searchParams?: { [key: string]: string | string[] | undefined }
-}) {
+type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>
+
+export default async function Page(props: { searchParams: SearchParams }) {
+  const searchParams = await props.searchParams
   const { perPageQuery, pageQuery, searchQuery } = parseQueryParams({
     searchParams,
     defaultPerPage: BLOGS_PER_PAGE_DEFAULT,
@@ -87,13 +86,13 @@ export default async function Page({
         <AlertTitle className='text-sm font-semibold uppercase'>
           Heads up!
         </AlertTitle>
-        <AlertDescription className='text-sm text-muted-foreground'>
+        <AlertDescription className='text-muted-foreground text-sm'>
           Check out these posts on{' '}
           <a
             href='https://dev.to/mustafagenc'
             target='_blank'
             rel='noreferrer noopener'
-            className='font-semibold text-muted-foreground underline underline-offset-4 hover:text-foreground hover:transition'
+            className='text-muted-foreground hover:text-foreground font-semibold underline underline-offset-4 hover:transition'
           >
             DEV
           </a>{' '}
@@ -102,7 +101,7 @@ export default async function Page({
             href='https://mustafagenc.hashnode.dev'
             target='_blank'
             rel='noreferrer noopener'
-            className='font-semibold text-muted-foreground underline underline-offset-4 hover:text-foreground hover:transition'
+            className='text-muted-foreground hover:text-foreground font-semibold underline underline-offset-4 hover:transition'
           >
             Hashnode
           </a>{' '}
@@ -154,7 +153,7 @@ export default async function Page({
         endpoint='blogs'
       />
 
-      <div className='mb-10 mt-5 flex justify-between text-sm font-medium text-muted-foreground'>
+      <div className='text-muted-foreground mt-5 mb-10 flex justify-between text-sm font-medium'>
         <p>
           Showing {noOfBlogsShownAlready} of{' '}
           {searchQuery ? filteredBlogsLength : blogslength} blogs

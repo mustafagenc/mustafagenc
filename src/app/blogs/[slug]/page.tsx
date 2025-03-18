@@ -10,18 +10,19 @@ import {
   getBlogPostByID,
   getBlogPostIDBySlug,
 } from '@/lib/blogs'
-import type { Metadata } from 'next'
 import { BASE_URL } from '@/lib/constants'
 import { notFound } from 'next/navigation'
 import { BackButton } from '@/components/back-button'
 import { Suspense } from 'react'
 import { Button } from '@/components/ui/button'
 
-interface Props {
-  params: {
-    slug: string
-  }
-}
+// interface Props {
+//   params: {
+//     slug: string
+//   }
+// }
+
+type Params = Promise<{ slug: string }>
 
 // Static Site Generation (SSG) to improve performance on static contents.
 export async function generateStaticParams() {
@@ -40,13 +41,13 @@ export async function generateStaticParams() {
   }
 }
 
-export async function generateMetadata({
-  params: { slug },
-}: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Params }) {
+  const { slug } = await params
+
   const DEFAULT_METADATA = {
-    title: 'Blog by Mustafa Genç',
+    title: 'Blog by Shrijal Acharya',
     description:
-      'Explore the blog by Mustafa Genç, covering programming, development, and tech insights.',
+      'Explore the blog by Shrijal Acharya, covering programming, development, and tech insights.',
   }
 
   try {
@@ -109,10 +110,9 @@ export async function generateMetadata({
   }
 }
 
-type Params = Promise<{ slug: string }>
-
-export default async function Page({ params }: { params: Params }) {
-  const { slug } = await params
+export default async function Page(props: { params: Params }) {
+  const params = await props.params
+  const slug = params.slug
   try {
     // NOTE: I am fetching the postId by slug but not the post by id here, because
     // I don't want to pollute the URL by including the postId anywhere like in the path or

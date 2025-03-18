@@ -25,11 +25,10 @@ export const metadata: Metadata = {
     'Collection of my selected public repositories fetched through GitHub Actions.',
 }
 
-export default function Page({
-  searchParams,
-}: {
-  searchParams?: { [key: string]: string | string[] | undefined }
-}) {
+type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>
+
+export default async function Page(props: { searchParams: SearchParams }) {
+  const searchParams = await props.searchParams
   const { perPageQuery, pageQuery, searchQuery } = parseQueryParams({
     searchParams,
     defaultPerPage: PROJECTS_PER_PAGE_DEFAULT,
@@ -87,13 +86,13 @@ export default function Page({
         <AlertTitle className='text-sm font-semibold uppercase'>
           Heads up!
         </AlertTitle>
-        <AlertDescription className='text-sm text-muted-foreground'>
+        <AlertDescription className='text-muted-foreground text-sm'>
           It does not list all of my projects. To view them all, check out my{' '}
           <a
             href='https://github.com/mustafagenc'
             target='_blank'
             rel='noreferrer noopener'
-            className='font-semibold text-muted-foreground underline underline-offset-4 hover:text-foreground hover:transition'
+            className='text-muted-foreground hover:text-foreground font-semibold underline underline-offset-4 hover:transition'
           >
             GitHub
           </a>{' '}
@@ -145,7 +144,7 @@ export default function Page({
         endpoint='projects'
       />
 
-      <div className='mb-10 mt-5 flex justify-between text-sm font-medium text-muted-foreground'>
+      <div className='text-muted-foreground mt-5 mb-10 flex justify-between text-sm font-medium'>
         <p>
           Showing {noOfPostsShownAlready} of{' '}
           {searchQuery ? filteredProjectsLength : projectsLength} projects

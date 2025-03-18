@@ -8,16 +8,11 @@ import { UserAvatar } from '@/components/user-avatar'
 import { BASE_URL, PROJECT_FILTER_TOPIC } from '@/lib/constants'
 import { getProjectByTitle, getProjectsMetadata } from '@/lib/projects'
 import { formatDate } from '@/lib/utils'
-import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { Suspense } from 'react'
 
-interface Props {
-  params: {
-    projectName: string
-  }
-}
+type Params = Promise<{ projectName: string }>
 
 // Static Site Generation (SSG) to improve performance on static contents.
 export async function generateStaticParams() {
@@ -33,9 +28,8 @@ export async function generateStaticParams() {
   }
 }
 
-export async function generateMetadata({
-  params: { projectName },
-}: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Params }) {
+  const { projectName } = await params
   const DEFAULT_METADATA = {
     title: projectName,
     description: 'A project by Mustafa Genç showcasing work and skills.',
@@ -84,7 +78,9 @@ export async function generateMetadata({
   }
 }
 
-export default function Page({ params: { projectName } }: Props) {
+export default async function Page(props: { params: Params }) {
+  const params = await props.params
+  const projectName = params.projectName
   try {
     const project = getProjectByTitle({ title: projectName })
     if (!project) notFound()

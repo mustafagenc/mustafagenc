@@ -7,12 +7,12 @@ import {
 import { TBlogCardMetadata } from '@/types/blogs'
 
 interface BlogsProps {
-  blogsWithMeta: Promise<TBlogCardMetadata[]>
-  searchParams?: Promise<{
+  blogsWithMeta: TBlogCardMetadata[]
+  searchParams?: {
     [SEARCH_QUERY_PARAM]?: string
     [PAGE_QUERY_PARAM]?: string
     [PER_PAGE_QUERY_PARAM]?: string
-  }>
+  }
 }
 
 export const Blogs = async ({ blogsWithMeta, searchParams }: BlogsProps) => {

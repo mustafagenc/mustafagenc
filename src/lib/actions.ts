@@ -1,6 +1,5 @@
 'use server'
 
-import { ContactFormEmailTemplate } from '@/components/contact-email-template'
 import {
   ContactFormSchema,
   TContactFormSchema,
@@ -31,14 +30,14 @@ export async function saveContactsResend(
 
 async function sendEmailResend(data: TContactFormSchema) {
   const senderEmail = env.RESEND_FROM_EMAIL
-
   const { email, name, message } = data
   return await resend.emails.send({
     from: senderEmail,
     to: PUBLIC_MAIL,
     cc: [senderEmail, email],
     subject: 'Portfolio: Contact Form Submission',
-    react: ContactFormEmailTemplate({ name, email, message }),
+    text: `${name}<br />${email}<br />${message}`,
+    // react: ContactFormEmailTemplate({ name, email, message }),
   })
 }
 
