@@ -50,10 +50,10 @@ export default function Page() {
                 the{' '}
                 <CustomHoverCard
                   triggerText='EGEM'
-                  title='Microsoft Learn Student Ambassador'
-                  description='Global group of campus leaders who are eager to help fellow students, lead in their tech community.'
-                  dateText='Joined April 2024'
-                  avatarSrc='/images/microsoft.svg'
+                  title='ENKA Global Equipment Management System'
+                  description='EGEM is a trend-setting software for the sophisticated control of a wide range of equipment with embedded cutting-edge technologies such as telematics, fuel automation, and Geo-fencing technology for prolonging the equipment’s life cycle with a cost efficient approach.'
+                  dateText='Joined Mar 2019'
+                  avatarSrc='/images/enka.png'
                   avatarFallback='MS'
                 />{' '}
                 project, which provides management of large-scale equipment
