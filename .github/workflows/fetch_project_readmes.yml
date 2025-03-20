@@ -15,7 +15,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v4
         with:
-          repository: mustafagenc/site
+          repository: mustafagenc/mustafagenc
 
       - name: Fetch repository list and README's with metadata
         env:
