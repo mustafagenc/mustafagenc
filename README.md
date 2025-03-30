@@ -5,7 +5,7 @@
 ## About Me
 
 - 🌍 I'm based in İstanbul
-- ✉️ You can contact me at [mustafagenc.info/contact]([mailto:eposta@mustafagenc.info](https://mustafagenc.info/contact/)
+- ✉️ You can contact me at [mustafagenc.info/contact](https://mustafagenc.info/contact/)
 - 🚀 I'm currently working on [ENKA Systems](https://www.enkasystems.com/solutions/egem-global-equipment-management-system/)
 
 ## Connect with me
