@@ -19,4 +19,4 @@
 [![GitHub Streak](https://streak-stats.demolab.com?user=mustafagenc&theme=blue-green&hide_border=true&short_numbers=true&mode=weekly&exclude_days=Mon)](https://git.io/streak-stats)
 ![My Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mustafagenc&layout=compact&theme=radical&langs_count=6&hide_border=true&border_radius=20)
 
-[![Mustafa's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=mustafagenc&theme=github-compact&hide_border=true&radius=16&bg_color=151515&custom_title=My%20Activity%20Graph%20^_^&title_color=26a641)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Mustafa's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=mustafagenc&theme=github-compact&hide_border=true&radius=16&bg_color=0d1117&custom_title=My%20Activity%20Graph%20^_^&title_color=26a641)](https://github.com/ashutosh00710/github-readme-activity-graph)
