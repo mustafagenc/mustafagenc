@@ -8,5 +8,4 @@
 
 ### GitHub Stats
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=mustafagenc&theme=dark&hide_border=true&mode=weekly&border=0D1117&stroke=0D1117)](https://git.io/streak-stats)
-![My Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mustafagenc&layout=compact&theme=radical&langs_count=6&hide_border=true&border_radius=20)
+![mustafagenc's Stats](https://github-readme-stats.vercel.app/api?username=mustafagenc&theme=tokyonight&show_icons=true&hide_border=true&count_private=true) ![mustafagenc's Streak](https://github-readme-streak-stats.herokuapp.com/?user=mustafagenc&theme=tokyonight&hide_border=true)
